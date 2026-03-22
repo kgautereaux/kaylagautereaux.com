@@ -1,0 +1,41 @@
+---
+title: "Research"
+---
+
+::: {.content-section}
+
+My research focuses on the psychoacoustics of the singing voice, acoustic and physiological measures of vocal function, and neurodivergent-inclusive assessment design.
+
+Most of my recent research output comes through mentorship — I supervise MFA and MM students through original studies from question formation to conference presentation. Our lab uses Praat acoustic analysis, Polar H10 heart rate monitoring, RespTrack respiration monitoring, and Python-based data pipelines.
+
+## MFA Research Archive
+
+::: {.callout-note appearance="simple"}
+**[research.kaylagautereaux.com →](https://research.kaylagautereaux.com){target="_blank"}**
+
+A public-facing, interactive archive of thesis research from the Vocal Arts Pedagogy Lab at Boston Conservatory at Berklee. Browse studies with interactive Plotly visualizations — hover, zoom, toggle, and explore the data yourself. All data confidentialized per Berklee IRB.
+:::
+
+## Current and recent research themes
+
+- Acoustic voice quality measures (AVQI, DSI, CPPS, HNR, f0)
+- Performance anxiety and cardiac synchrony in vocal auditions
+- Gender perception in musical theater singing
+- Respiratory coordination during pregnancy
+- Animal mimicry and singing voice quality
+- Cultural responsivity in voice studio pedagogy
+- Neurodivergent-inclusive assessment rubric design
+
+## Publications
+
+Howell, Ian, Kayla Gautereaux, et al. *Preliminary Report: Comparing the Audio Quality of Classical Music Lessons Over Zoom, Microsoft Teams, VoiceLessonsApp, and AppleFaceTime.* 2020.
+
+Howell, Ian, and Kayla Gautereaux. *NEC 2021 SoundJack Bootcamp.* 2021.
+
+Elosúa Serna, Mariana (supervised by Gautereaux). Article in *Journal of Singing*, January 2026.
+
+## Conference presentations
+
+28 presentations (2022–2026) at the Voice Foundation, NATS National, PAVA, PEVoC, and NATS Regional conferences. 6 as lead author, 22 co-authored with students.
+
+:::

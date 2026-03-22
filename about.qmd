@@ -1,0 +1,52 @@
+---
+title: "About"
+---
+
+::: {.content-section}
+
+I'm Kayla Gautereaux — voice scientist, educator, and builder based in Newton, MA.
+
+I teach voice and vocal pedagogy at Boston Conservatory at Berklee, where I lead two graduate degree programs (MM in Vocal Pedagogy and MFA in Musical Theater Vocal Pedagogy). My students learn to be co-investigators of their own voices — asking questions that are observable, measurable, and repeatable, then carrying that curiosity into their teaching and performing.
+
+Before BCB, I held dual appointments at New England Conservatory as Assistant Vocal Pedagogy Director (faculty) and Voice and Sound Analysis Lab Manager (staff), and worked as a research assistant at the MGH Voice Center. I've been teaching voice privately since 2012.
+
+## What I care about
+
+I believe the best voice teaching looks like partnership, not authority. My framework — scientific method informed voice teaching — treats every lesson as a shared experiment. The teacher listens and observes. The student feels and senses. Together, you figure out what's actually happening and what's possible.
+
+I also believe that quality voice pedagogy shouldn't require $60K in conservatory tuition. I'm building tools and programs to make this work more accessible.
+
+## What I build
+
+I don't just teach — I build infrastructure. Graduate programs, clinical partnerships, research pipelines, AI-powered teaching tools, professional workshops, and community programs. If something doesn't exist yet and it should, I tend to make it.
+
+In 2024, I started building an AI-powered voice studio system — a production tool that uses artificial intelligence to analyze voice lessons, generate teaching insights, and create individualized practice plans. It's the first system of its kind in vocal pedagogy, and it's changing how I think about the future of this field.
+
+## Recognition
+
+- 2023 NATS Voice Pedagogy Award (National Association of Teachers of Singing)
+- 2022–2023 Faculty Development Grant for Inclusive Teaching and Learning (Berklee, $7,500)
+- 2021 Board of Trustees Award (New England Conservatory)
+- Summer faculty, Acoustic Vocal Pedagogy Workshop, Stetson University (2024–2026)
+- 5x guest on the VocalFri Podcast
+
+## Education
+
+- MM, Vocal Pedagogy — New England Conservatory (2019)
+- BM, Vocal Performance — San Diego State University (2014)
+
+::: {.singer-section}
+
+## I'm also a singer
+
+Before I was a researcher or a program builder, I was a singer — and I still am. Soprano soloist, choir member, backing vocalist for Ellie Goulding at the Earthshot Prize Awards (yes, really). Performing keeps me honest about what I ask my students to do.
+
+<!-- TODO: Embed 3-5 recordings here. Options:
+  - YouTube embeds: {{< video https://youtube.com/watch?v=XXXXX >}}
+  - SoundCloud embeds: Use raw HTML iframe
+  - Audio files: Host in /media/ and use HTML5 audio tags
+-->
+
+:::
+
+:::

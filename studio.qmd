@@ -1,0 +1,27 @@
+---
+title: "Private Studio"
+---
+
+::: {.content-section}
+
+I teach voice lessons for singers and coaching sessions for voice teachers. Cross-genre: classical, musical theater, and contemporary.
+
+## Voice Lessons
+
+For singers at any level who want to understand their voice better and expand what's possible. My approach is collaborative — we're co-investigators, not master and student. Every lesson is designed around what your voice needs, informed by voice science and grounded in your artistic goals.
+
+## Teacher Coaching
+
+For voice teachers who want to deepen their pedagogical practice. We work on lesson design, teaching frameworks, student assessment, and integrating voice science into your studio. Drawing on 14 years of teaching experience and a research-backed framework.
+
+## Details
+
+- **Format**: In-person (Newton, MA) or online
+- **Availability**: Limited — currently accepting a small number of students
+- **Rates**: Available upon inquiry
+
+## Get started
+
+[Contact me →](contact.qmd){.cta-button} to schedule an introductory conversation.
+
+:::

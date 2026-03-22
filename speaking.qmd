@@ -1,0 +1,40 @@
+---
+title: "Speaking & Media"
+---
+
+::: {.content-section}
+
+I speak about voice science, pedagogy, AI in education, and the future of voice teaching. Available for conferences, workshops, podcasts, and guest lectures.
+
+## Recent and upcoming
+
+- **"Special Acts of Breathing: Visualizing Respiration with RespTrack"** — NATS National Conference, July 2026
+- **"Listening Beyond the Binary: Gender Perception in the MT Voice Studio"** — NATS National Conference, July 2026
+- **"Scaling Vocal Exercises: Maximizing Student Learning Through Adaptive Pedagogy"** — NATS New England Regional, 2025 (40-minute solo presentation)
+- **"The Future of Interdisciplinary and Practitioner-Led Research Mentorship"** — PAVA Symposium, 2024
+
+## Podcast
+
+**VocalFri Podcast** — 5 appearances (2020–2025)
+
+- "Scientific Method Informed Voice Teaching" (October 2025)
+- "Treble Extremes!" (December 2021)
+- "Teaching Online 2.0: The Future is Now" (January 2021)
+- "Treble Middle Voice" (November 2020)
+- "Viral Video Voice Conferencing Platforms" (April 2020)
+
+## Topics I speak on
+
+- Scientific method informed voice teaching
+- AI-powered tools for voice pedagogy
+- Building research programs in arts conservatories
+- Neurodivergent-inclusive assessment design
+- Voice health and clinical partnerships
+- Cross-genre voice teaching (classical, MT, contemporary)
+- The future of voice teacher training
+
+## Booking
+
+[Contact me →](contact.qmd){.cta-button} to discuss speaking engagements.
+
+:::

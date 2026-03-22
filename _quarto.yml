@@ -1,0 +1,44 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Kayla Gautereaux"
+  description: "Voice scientist. Educator. Builder."
+  site-url: https://kaylagautereaux.com
+  navbar:
+    background: light
+    left:
+      - text: About
+        href: about.qmd
+      - text: Teaching & Programs
+        href: teaching.qmd
+      - text: Research
+        href: research.qmd
+      - text: AI & Voice
+        href: ai-voice.qmd
+      - text: Speaking
+        href: speaking.qmd
+      - text: Private Studio
+        href: studio.qmd
+      - text: Contact
+        href: contact.qmd
+    right:
+      - icon: instagram
+        href: https://instagram.com/kaylajanegautereaux
+        target: _blank
+      - icon: youtube
+        href: https://youtube.com/@voiceboxchannel
+        target: _blank
+      - icon: linkedin
+        href: https://linkedin.com/in/kaylagautereaux
+        target: _blank
+  page-footer:
+    center: "&copy; 2026 Kayla Gautereaux"
+
+format:
+  html:
+    theme:
+      light: flatly
+    css: styles.css
+    toc: false

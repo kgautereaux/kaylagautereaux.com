@@ -1,0 +1,81 @@
+---
+title: ""
+page-layout: full
+---
+
+::: {.hero}
+
+# Voice scientist. Educator. Builder.
+
+::: {.subtitle}
+I teach singers, lead graduate programs, build AI-powered tools for voice pedagogy, and help people understand how their voices actually work.
+:::
+
+[Learn more](about.qmd){.cta-button}
+[Work with me](studio.qmd){.cta-button .secondary}
+
+:::
+
+::: {.stats-strip}
+
+::: {.stat}
+**2023 NATS Voice Pedagogy Award**
+[National recognition]{style="font-size: 0.85rem; color: #777;"}
+:::
+
+::: {.stat}
+**42 graduates, 85% placed**
+[Universities across the country]{style="font-size: 0.85rem; color: #777;"}
+:::
+
+::: {.stat}
+**28 conference presentations**
+[Voice Foundation, NATS, PAVA, PEVoC]{style="font-size: 0.85rem; color: #777;"}
+:::
+
+::: {.stat}
+**AI voice studio pioneer**
+[First of its kind in vocal pedagogy]{style="font-size: 0.85rem; color: #777;"}
+:::
+
+:::
+
+::: {.content-section}
+
+I'm an Assistant Professor at Boston Conservatory at Berklee, where I lead two graduate vocal pedagogy programs and run original voice science research with my students. I also build AI-powered tools that are changing how voice teachers work. I believe quality voice pedagogy should be accessible to everyone — not locked behind conservatory tuition.
+
+[Read more →](about.qmd)
+
+:::
+
+::: {.feature-cards}
+
+::: {.feature-card}
+### Teaching & Programs
+Two graduate degrees. 42 graduates placed at universities across the country. A teaching framework built on co-investigation, not authority.
+
+[→ Teaching & Programs](teaching.qmd)
+:::
+
+::: {.feature-card}
+### Research
+Interactive data visualizations from original voice science research. Acoustic analysis, cardiac synchrony, respiratory coordination, and more.
+
+[→ Research Archive](https://research.kaylagautereaux.com){target="_blank"}
+:::
+
+::: {.feature-card}
+### AI & Voice Technology
+I built a production AI system for voice lesson analysis — the first of its kind in vocal pedagogy. Here's what I'm learning.
+
+[→ AI & Voice](ai-voice.qmd)
+:::
+
+::: {.feature-card}
+### Private Studio
+Voice lessons for singers and coaching for voice teachers. Cross-genre (classical, MT, contemporary). Limited availability.
+
+[→ Private Studio](studio.qmd)
+:::
+
+:::

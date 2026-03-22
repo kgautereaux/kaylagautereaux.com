@@ -1,0 +1,14 @@
+---
+title: "Contact"
+---
+
+::: {.content-section}
+
+**Kayla Gautereaux**
+Newton, MA
+
+For professional inquiries, speaking engagements, private lessons, or collaboration:
+
+**[kgautereaux@berklee.edu](mailto:kgautereaux@berklee.edu)**
+
+:::

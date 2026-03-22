@@ -1,0 +1,140 @@
+/* kaylagautereaux.com — custom styles */
+
+/* Hero section */
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  margin-bottom: 0.5rem;
+}
+
+.hero .subtitle {
+  font-size: 1.15rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+/* Impact stats strip */
+.stats-strip {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+
+.stats-strip .stat {
+  text-align: center;
+  min-width: 180px;
+}
+
+.stats-strip .stat strong {
+  display: block;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.stats-strip .stat span {
+  font-size: 0.85rem;
+  color: #777;
+}
+
+/* Feature cards */
+.feature-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 3rem 0;
+}
+
+.feature-card {
+  padding: 1.5rem;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  transition: box-shadow 0.2s;
+}
+
+.feature-card:hover {
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.feature-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.feature-card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Section spacing */
+.content-section {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* CTA buttons */
+.cta-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  margin: 0.5rem 0.5rem 0.5rem 0;
+  transition: background 0.2s;
+}
+
+.cta-button:hover {
+  background: #555;
+  color: #fff;
+  text-decoration: none;
+}
+
+.cta-button.secondary {
+  background: transparent;
+  color: #333;
+  border: 1px solid #333;
+}
+
+.cta-button.secondary:hover {
+  background: #f8f9fa;
+}
+
+/* Singer section */
+.singer-section {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e9ecef;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .stats-strip {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature-cards {
+    grid-template-columns: 1fr;
+  }
+}
