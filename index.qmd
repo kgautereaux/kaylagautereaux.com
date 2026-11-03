@@ -1,81 +1,134 @@
 ---
-title: ""
+title: "Kayla Gautereaux"
+pagetitle: "Kayla Gautereaux"
+description: "Kayla Gautereaux teaches voice and vocal pedagogy at Boston Conservatory at Berklee, where she leads the graduate vocal pedagogy area, and builds AI tools that support teaching and learning."
 page-layout: full
 ---
 
-::: {.hero}
+::: {.hero .hero-split .column-screen}
 
-# Voice scientist. Educator. Builder.
+::: {.hero-text}
+
+# Kayla Gautereaux
 
 ::: {.subtitle}
-I teach singers, lead graduate programs, build AI-powered tools for voice pedagogy, and help people understand how their voices actually work.
+I teach voice and vocal pedagogy at Boston Conservatory at Berklee, where I lead the graduate vocal pedagogy area. I also build AI tools that support teaching and learning.
 :::
 
-[Learn more](about.qmd){.cta-button}
-[Work with me](studio.qmd){.cta-button .secondary}
+[Research Archive](https://research.kaylagautereaux.com){.cta-button}
+[Studio Portal demo](https://studio.kaylagautereaux.com/demo){.cta-button .secondary}
 
 :::
 
-::: {.stats-strip}
+::: {.hero-media}
+![](images/lab-spectrogram.jpg){fig-alt="Kayla Gautereaux pointing to a spectrogram on a screen while graduate students raise their hands"}
+[Photo: Simon Simard for Berklee]{.photo-credit .on-image}
+:::
+
+:::
+
+::: {.split .column-screen}
+
+::: {.split-text}
+## Singing for health
+
+In this episode of Berklee Office Hours, I talk about what singing does for our health and how to keep a voice healthy over a lifetime of use.
+
+[More about me →](about.qmd)
+:::
+
+::: {.split-media}
+::: {.video-embed}
+<iframe src="https://www.youtube-nocookie.com/embed/H32-zdhTzq0?autoplay=1&mute=1&cc_load_policy=1&playsinline=1&rel=0" title="Berklee Office Hours: Singing for Health and Healthy Singing" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" loading="eager" allowfullscreen></iframe>
+:::
+
+[Berklee Office Hours. Starts muted; click for sound.]{.video-caption}
+:::
+
+:::
+
+::: {.stats-strip .column-screen}
 
 ::: {.stat}
-**2023 NATS Voice Pedagogy Award**
-[National recognition]{style="font-size: 0.85rem; color: #777;"}
+[2026]{.stat-big}
+[Best Microworkshop/<wbr>ToolTalk award, Pan American Vocology Association]{.stat-note}
 :::
 
 ::: {.stat}
-**42 graduates, 85% placed**
-[Universities across the country]{style="font-size: 0.85rem; color: #777;"}
+[2023]{.stat-big}
+[Voice Pedagogy Award, National Association of Teachers of Singing]{.stat-note}
 :::
 
 ::: {.stat}
-**28 conference presentations**
-[Voice Foundation, NATS, PAVA, PEVoC]{style="font-size: 0.85rem; color: #777;"}
+[35]{.stat-big}
+[conference presentations by program alumni since 2022]{.stat-note}
 :::
 
 ::: {.stat}
-**AI voice studio pioneer**
-[First of its kind in vocal pedagogy]{style="font-size: 0.85rem; color: #777;"}
+[33]{.stat-big}
+[graduate studies in the public research archive]{.stat-note}
 :::
 
 :::
 
-::: {.content-section}
+::: {.split .reverse .column-screen}
 
-I'm an Assistant Professor at Boston Conservatory at Berklee, where I lead two graduate vocal pedagogy programs and run original voice science research with my students. I also build AI-powered tools that are changing how voice teachers work. I believe quality voice pedagogy should be accessible to everyone — not locked behind conservatory tuition.
+::: {.split-text}
+## Research
 
-[Read more →](about.qmd)
+Since 2022 I have led research in Boston Conservatory's graduate vocal pedagogy degrees. Our students' theses are collected in a public archive of 33 studies, searchable by topic, with data you can explore yourself.
+
+[Go to the research archive →](https://research.kaylagautereaux.com)
+:::
+
+::: {.split-media}
+![](images/card-research.jpg){.screenshot fig-alt="The research archive homepage, showing a network of research topics"}
+:::
 
 :::
 
-::: {.feature-cards}
+::: {.split .column-screen}
 
-::: {.feature-card}
-### Teaching & Programs
-Two graduate degrees. 42 graduates placed at universities across the country. A teaching framework built on co-investigation, not authority.
+::: {.split-text}
+## Teaching
 
-[→ Teaching & Programs](teaching.qmd)
+I lead the MM in Vocal Pedagogy and the MFA in Musical Theater Vocal Pedagogy, and I direct the Vocal Pedagogy Professional Workshop for working voice teachers.
+
+[Teaching →](teaching.qmd)
 :::
 
-::: {.feature-card}
-### Research
-Interactive data visualizations from original voice science research. Acoustic analysis, cardiac synchrony, respiratory coordination, and more.
-
-[→ Research Archive](https://research.kaylagautereaux.com){target="_blank"}
+::: {.split-media}
+![](images/vppw-workshop.jpg){fig-alt="Kayla Gautereaux teaching at the Vocal Pedagogy Professional Workshop while a singer holds an expanding sphere toy used to show breathing"}
+[Photo: Simon Simard for Berklee]{.photo-credit}
 :::
 
-::: {.feature-card}
-### AI & Voice Technology
-I built a production AI system for voice lesson analysis — the first of its kind in vocal pedagogy. Here's what I'm learning.
-
-[→ AI & Voice](ai-voice.qmd)
 :::
 
-::: {.feature-card}
-### Private Studio
-Voice lessons for singers and coaching for voice teachers. Cross-genre (classical, MT, contemporary). Limited availability.
+::: {.split .reverse .column-screen}
 
-[→ Private Studio](studio.qmd)
+::: {.split-text}
+## AI and learning
+
+I use AI as a partner in teaching and learning, not as a replacement for either. My private voice students use the AI Supported Voice Studio Portal, which I built, and it won the Pan American Vocology Association's 2026 Best Microworkshop/ToolTalk award.
+
+[AI and learning →](ai-learning.qmd)
+[Try the demo →](https://studio.kaylagautereaux.com/demo)
+[Private studio →](https://studio.kaylagautereaux.com)
+:::
+
+::: {.split-media}
+![](images/portal-dashboard.jpg){.screenshot fig-alt="The studio portal demo dashboard with sample student data"}
+:::
+
+:::
+
+::: {.photo-band .column-screen}
+![](images/singing-costume.jpg){fig-alt="Kayla Gautereaux as the Mother in Menotti's Amahl and the Night Visitors, singing with arms outstretched"}
+
+::: {.band-text}
+[As the Mother in Menotti's *Amahl and the Night Visitors*]{.band-caption}
+
+[More about me →](about.qmd)
 :::
 
 :::

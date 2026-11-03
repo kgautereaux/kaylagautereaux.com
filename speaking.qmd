@@ -1,40 +1,108 @@
 ---
-title: "Speaking & Media"
+title: "Presentations & Media"
+description: "Presentations, publications, podcasts, and media by Kayla Gautereaux on voice pedagogy, graduate research, and AI in teaching and learning."
 ---
 
 ::: {.content-section}
 
-I speak about voice science, pedagogy, AI in education, and the future of voice teaching. Available for conferences, workshops, podcasts, and guest lectures.
+I give conference presentations, workshops, guest lectures, and podcast interviews on voice pedagogy, research in conservatory programs, and AI tools for learning.
 
-## Recent and upcoming
+## Watch and listen
 
-- **"Special Acts of Breathing: Visualizing Respiration with RespTrack"** — NATS National Conference, July 2026
-- **"Listening Beyond the Binary: Gender Perception in the MT Voice Studio"** — NATS National Conference, July 2026
-- **"Scaling Vocal Exercises: Maximizing Student Learning Through Adaptive Pedagogy"** — NATS New England Regional, 2025 (40-minute solo presentation)
-- **"The Future of Interdisciplinary and Practitioner-Led Research Mentorship"** — PAVA Symposium, 2024
+::: {.video-embed}
+<iframe src="https://www.youtube-nocookie.com/embed/H32-zdhTzq0?rel=0" title="Berklee Office Hours: Singing for Health and Healthy Singing" allow="encrypted-media; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" loading="lazy" allowfullscreen></iframe>
+:::
 
-## Podcast
+[Berklee Office Hours: Singing for Health and Healthy Singing]{.video-caption}
 
-**VocalFri Podcast** — 5 appearances (2020–2025)
+<iframe title="AI and the Voice Practitioner, VocalFri Podcast" class="podcast-player" height="150" width="100%" scrolling="no" loading="lazy" src="https://www.podbean.com/player-v2/?i=2k3gu-1a9fb06&share=0&download=0"></iframe>
 
-- "Scientific Method Informed Voice Teaching" (October 2025)
-- "Treble Extremes!" (December 2021)
-- "Teaching Online 2.0: The Future is Now" (January 2021)
-- "Treble Middle Voice" (November 2020)
-- "Viral Video Voice Conferencing Platforms" (April 2020)
+<iframe title="Scientific Method Informed Voice Teaching, VocalFri Podcast" class="podcast-player" height="150" width="100%" scrolling="no" loading="lazy" src="https://www.podbean.com/player-v2/?i=88x5b-1998280&share=0&download=0"></iframe>
 
-## Topics I speak on
+## Presentations and publications
+
+Most of my conference work is co-authored with the graduate students whose research I supervise.
+
+### 2026
+
+- Gautereaux, Kayla, with Ian Howell and Cary Lee. "AI and the Voice Studio: Opportunity, Ethics, and Expertise." NATS Chat, the National Association of Teachers of Singing webinar series, October 2026.
+- "The Role of Artificial Intelligence in Vocology Research, Voice Pedagogy, Clinical Practice, and Scholarship." Panel, Pan American Vocology Association Symposium, October 2026.
+- Gautereaux, Kayla. "AI Supported Voice Studio Portal." Microworkshop/ToolTalk, Pan American Vocology Association Symposium, 2026. Winner, Best Microworkshop/ToolTalk.
+- Gautereaux, Kayla, and Emily Siar. "Evaluating the Art of Teaching Voice." Berklee VoiceCast, episode 5, July 2026.
+- Elosúa Serna, Mariana, and Brian Manternach. ["The Independent Teacher: Culturally Responsive Repertoire Categories in the Voice Studio."](https://doi.org/10.53830/sing.00189) *Journal of Singing* 82, no. 3 (January/February 2026): 345–350. Builds on Elosúa Serna's 2024 MFA thesis at Boston Conservatory at Berklee, supervised by Kayla Gautereaux.
+- Howell, Ian, and Kayla Gautereaux. "Special Acts of Breathing: Visualizing Respiration with RespTrack." NATS National Conference, July 2026.
+- Da Silva, Jessye, Kayla Gautereaux, and Rachel Klippel. "Listening Beyond the Binary: Gender Perception in the MT Voice Studio." NATS National Conference, July 2026.
+- Nissimoff, Michal, Kayla Gautereaux, et al. "Group Free Improvisation and Performance Anxiety." Voice Foundation Symposium, Philadelphia, PA, May 2026.
+- Pay, Morgan, Kayla Gautereaux, et al. "Animal Mimicry in the Voice Studio." Voice Foundation Symposium, Philadelphia, PA, May 2026.
+- Meikle, Brianna, Kayla Gautereaux, et al. "Performance Anxiety and Co-Regulation in the Vocal Audition." Voice Foundation Symposium, Philadelphia, PA, May 2026.
+- Fieland, Marissa, Jennifer Burks, Kayla Gautereaux, and Ian Howell. "Respiratory Coordination and Acoustic Vocal Quality of Two Opera Singers Through the 2nd and 3rd Trimesters of Pregnancy." Poster, Voice Foundation Symposium, Philadelphia, PA, May 2026.
+
+### 2025
+
+- Gautereaux, Kayla. "Scaling Vocal Exercises: Maximizing Student Learning Through Adaptive Pedagogy." NATS New England Regional Conference, 2025.
+- Nicoletti, Joseph, Kayla Gautereaux, and Joshua Gilbert. "Perceived Vocal Effort of a Singer with a Lower-Limb Disability." Poster, Voice Foundation Symposium, Philadelphia, PA, May 2025.
+- Banton, Jayson, Kayla Gautereaux, and Joshua Gilbert. "The Effects of Cross-Training Experience on Voice Quality." Voice Foundation Symposium, Philadelphia, PA, May 2025.
+- Fieland, Marissa, Jennifer Burks, Kayla Gautereaux, and Ian Howell. "Respiratory Coordination and Acoustic Vocal Quality of Two Opera Singers During Pregnancy." Voice Foundation Symposium, Philadelphia, PA, May 2025.
+- Elosúa Serna, Mariana, Kayla Gautereaux, Joshua Gilbert, and Megan Stahl. "Culturally Aware Repertoire for Student Engagement in the Voice Studio." Voice Foundation Symposium, Philadelphia, PA, May 2025.
+- Klippel, Rachel, Kayla Gautereaux, Joshua Gilbert, and Megan Stahl. "Self and Listener Perceived Gender Perception of the Musical Theatre Singing Voice." Voice Foundation Symposium, Philadelphia, PA, May 2025.
+
+### 2024
+
+- Gautereaux, Kayla, Nicholas Perna, Mark Tempesta, and Ian Howell. "The Future of Interdisciplinary and Practitioner-Led Research Mentorship in Graduate Voice Pedagogy Programs." Special topics session, Pan American Vocology Association Symposium, 2024.
+- Perona, Anissa, Megan Stahl, Kayla Gautereaux, and Joshua Gilbert. "Assigned Voice Type and Self-Esteem in First-Year Collegiate Treble Singers." Poster, Voice Foundation Symposium, Philadelphia, PA, May 2024.
+- Bell, Lyndsee, Joshua Gilbert, Kayla Gautereaux, and Megan Stahl. "The Effects of Experienced Ease of a Singer from Pelvic Floor-Related Cues." Poster, Voice Foundation Symposium, Philadelphia, PA, May 2024.
+- Hansen, Violet Joy, Kayla Gautereaux, Joshua Glasner, and Megan Stahl. "Measuring the Differences Between Opera and Musical Theatre Styles Through Spectral Moment Analysis." Voice Foundation Symposium, Philadelphia, PA, May 2024.
+- Stratton, Merced, Jennifer Burks, Kayla Gautereaux, Joshua Gilbert, and Megan Stahl. "Impact of Cell Phone Pick-Ups on Memorization in Singing." Voice Foundation Symposium, Philadelphia, PA, May 2024.
+- Elosúa Serna, Mariana, Megan Stahl, Kayla Gautereaux, and Joshua Gilbert. "Cultural Responsivity in the Vocal Studio." Voice Foundation Symposium, Philadelphia, PA, May 2024.
+
+### 2023
+
+- Gautereaux, Kayla, and Lauren Guthridge. "Effects of Bra Band Tension on Respiration for Singing." Voice Foundation Symposium: Care of the Professional Voice, Philadelphia, PA, May 2023.
+- Guthridge, Lauren, and Kayla Gautereaux. "The Impacts of Cognitive Load on Acoustic Qualities of the Singing Voice: A Perceptual Study." Voice Foundation Symposium: Care of the Professional Voice, Philadelphia, PA, May 2023.
+- Ball, April, Kayla Gautereaux, Joshua Gilbert, and Lauren Guthridge. "The Effects of Empowered Postural Cues on Respiration for Singing." Poster, Voice Foundation Symposium, Philadelphia, PA, May 2023.
+- Lyons, Alexander, Lauren Guthridge, Joshua Gilbert, and Kayla Gautereaux. "Influence of Clarinet Playing on the Voice." Poster, Voice Foundation Symposium, Philadelphia, PA, May 2023.
+- Chan, Yu Hin Bryan, Kayla Gautereaux, Joshua Gilbert, and Lauren Guthridge. "The Impact of Emotional Valence and Activity on the Use of Vibrato in CCM Singing." Poster, Voice Foundation Symposium, Philadelphia, PA, May 2023.
+- Glasner, Joshua, Joseph Hitchcock, and Kayla Gautereaux. "Spectral Moment Analysis of a Synthesized Singing Voice." Voice Foundation Symposium, Philadelphia, PA, May 2023.
+- Manoj, Elza Ann, Kayla Gautereaux, and Joshua Gilbert. "Effects of Music Preference on Practice Time and Memory Retention." Voice Foundation Symposium, Philadelphia, PA, May 2023.
+
+### 2022
+
+- Shi, Xiao, Kayla Gautereaux, and Ian Howell. "A Comparative Study of Wavelet Analysis and Short-Time Fourier Transform on the Singing Voice." Poster, Voice Foundation Symposium, Philadelphia, PA, May 2022.
+- Tempesta, Mark, Kayla Gautereaux, and Ian Howell. "Correlation of Physical Onset Type to Speed of Per Period Timbral Evolution." Poster, Voice Foundation Symposium, Philadelphia, PA, May 2022.
+- Guthridge, Lauren, Kayla Gautereaux, Joshua Gilbert, and Ian Howell. "Attention and Distraction in Solo Voice Lessons." Voice Foundation Symposium, Philadelphia, PA, May 2022.
+- Burks, Jennifer, Ian Howell, and Kayla Gautereaux. "Speaking Fundamental Frequency and Voice Classification for Sopranos and Mezzo-Sopranos." Pan American Vocology Association Symposium, Salt Lake City, UT, 2022.
+
+### 2021
+
+- Howell, Ian, and Kayla Gautereaux. *NEC 2021 SoundJack Bootcamp.* New England Conservatory, 2021.
+- Asano, Chihiro, Ian Howell, and Kayla Gautereaux. "Japanese Female Voice in Anime." Poster, Pan American Vocology Association Virtual Symposium, 2021.
+- Guthridge, Lauren, Ian Howell, and Kayla Gautereaux. "Ocular Measurements and Locus of Attention in Solo Voice Instruction." Poster, Pan American Vocology Association Virtual Symposium, 2021.
+
+### 2020
+
+- Howell, Ian, Kayla Gautereaux, Joshua Glasner, Nicholas Perna, Chadley Ballantyne, and Theodora Nestorova. *Preliminary Report: Comparing the Audio Quality of Classical Music Lessons Over Zoom, Microsoft Teams, VoiceLessonsApp, and AppleFaceTime.* March 25, 2020.
+- Gautereaux, Kayla, Jason Trees, and Ian Howell. "Peering Inside the Period: Wavelet Decomposition as an Alternative to the Fourier Transform." Poster, NATS National Virtual Conference, June 2020.
+
+## VocalFri Podcast
+
+I have been a guest six times.
+
+- ["AI and the Voice Practitioner"](https://www.vocalfri.com/e/ai-and-the-voice-practitioner/) with Ian Howell and Theodora Nestorova (April 17, 2026)
+- ["Scientific Method Informed Voice Teaching"](https://www.vocalfri.com/e/kayla-gautereaux-scientific-method-informed-voice-teaching/) (October 17, 2025)
+- ["Treble Extremes!"](https://www.vocalfri.com/e/treble-extremes/) (December 3, 2021)
+- ["Teaching Online 2.0: The Future is Now"](https://www.vocalfri.com/e/teaching-online-20-the-future-is-now/) (January 8, 2021)
+- ["Treble Middle Voice"](https://www.vocalfri.com/e/treble-middle-voice/) (November 21, 2020)
+- ["Viral Video Voice Conferencing Platforms"](https://www.vocalfri.com/e/viral-video-voice-conferencing-platforms/) (April 10, 2020)
+
+## Topics
 
 - Scientific method informed voice teaching
-- AI-powered tools for voice pedagogy
-- Building research programs in arts conservatories
-- Neurodivergent-inclusive assessment design
+- AI tools for learning
+- Building a research program in a conservatory
+- Neurodivergent-inclusive assessment
 - Voice health and clinical partnerships
-- Cross-genre voice teaching (classical, MT, contemporary)
-- The future of voice teacher training
+- Teaching across classical, musical theater, and contemporary styles
 
-## Booking
-
-[Contact me →](contact.qmd){.cta-button} to discuss speaking engagements.
+[Ask about a talk or workshop](contact.qmd){.cta-button}
 
 :::

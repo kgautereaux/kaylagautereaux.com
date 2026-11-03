@@ -1,35 +1,53 @@
 ---
-title: "Teaching & Programs"
+title: "Teaching"
+description: "Kayla Gautereaux leads the MM in Vocal Pedagogy and MFA in Musical Theater Vocal Pedagogy at Boston Conservatory at Berklee and directs the Vocal Pedagogy Professional Workshop."
 ---
 
 ::: {.content-section}
 
-## Graduate Vocal Pedagogy at Boston Conservatory at Berklee
+![](images/lab-breathing.jpg){.lab-photo fig-alt="Kayla Gautereaux and a student wearing respiration bands, hands on chest and abdomen, in front of a spectrogram display"}
+[Photo: Simon Simard for Berklee]{.photo-credit}
 
-I lead two graduate degree programs that train the next generation of voice teachers and voice scientists:
+## Graduate vocal pedagogy at Boston Conservatory at Berklee
 
-**MM in Vocal Pedagogy** — A 36-credit program for singers who want to understand the science and craft of voice teaching.
+I lead two graduate degrees.
 
-**MFA in Musical Theater Vocal Pedagogy** — A 60-credit terminal degree for voice teachers specializing in musical theater, with original thesis research.
+### MM in Vocal Pedagogy
 
-## What makes this program different
+A 36-credit degree for singers who want to learn the science and craft of voice teaching, with pedagogy training in classical, musical theater, and contemporary styles.
 
-Our students don't just study pedagogy — they do original research. Every MFA student designs a study, collects data, analyzes results, and presents at national conferences. They graduate as scholar-practitioners who can teach, research, and lead.
+### MFA in Musical Theater Vocal Pedagogy
 
-## By the numbers
+A 60-credit terminal degree for teachers who specialize in musical theater. It includes an original thesis.
 
-- **42 graduates** across Classes of 2022–2025
-- **85%** hold active teaching positions
-- **65%** placed at universities and colleges
-- **28 conference presentations** at Voice Foundation, NATS, PAVA, and PEVoC
-- Graduates teaching at Oberlin Conservatory, Catholic University of America, Oklahoma State University, UMass Amherst, Brown University, and institutions across the country
+## Research in the program
 
-## Clinical partnerships
+Research is built into both degrees. Since 2022 we have set up:
 
-Our students have direct access to the MGH Voice Center (Harvard-affiliated Massachusetts General Hospital) through a clinical partnership I established. Every incoming voice student receives a voice screening, and students with findings receive MD counseling and follow-up care.
+- a voice science lab with acoustic analysis in Praat, heart rate and respiration monitoring, and Python data pipelines
+- a thesis sequence in quantitative and mixed methods, with review by an institutional review board (IRB) for every study
+- a public [research archive](https://research.kaylagautereaux.com) of 33 graduate studies
 
-## Vocal Pedagogy Professional Workshop (VPPW)
+The program also has a clinical partnership with the MGH Voice Center at Massachusetts General Hospital that predates my time here, and I have worked to strengthen it. Incoming voice students receive a voice screening, and those with findings receive physician follow-up.
 
-A national 4-day intensive for working voice teachers who want to deepen their pedagogical practice. Faculty from across the country. Hands-on, research-informed, and designed for teachers at every level.
+MFA students design and carry out their own studies. Since 2022, alumni of the program have given 35 conference presentations, including 19 at the Voice Foundation, 7 at the Pan American Vocology Association, and 6 at the National Association of Teachers of Singing (NATS). Graduates teach at Oberlin Conservatory, Catholic University of America, Oklahoma State University, UMass Amherst, Brown University, and other schools.
+
+<!-- Outcome stats from March 2026 (42 graduates, Classes of 2022 to 2025; 85% teaching; 65% at universities). Confirm current figures before restoring. -->
+
+## Workshops for working teachers
+
+![](images/vppw-workshop.jpg){.lab-photo fig-alt="Kayla Gautereaux teaching at the Vocal Pedagogy Professional Workshop while a singer holds an expanding sphere toy used to show breathing"}
+[Photo: Simon Simard for Berklee]{.photo-credit}
+
+I direct the Vocal Pedagogy Professional Workshop (VPPW), a four-day summer workshop for voice teachers, with faculty from several institutions. Since 2019 I have also been on the faculty of the Acoustic Vocal Pedagogy Workshop, run by the Embodied Music Lab, and have helped organize it.
+
+## Private studio
+
+![](images/vppw-ear-model.jpg){.lab-photo fig-alt="Kayla Gautereaux and a student examining an anatomical ear model together"}
+[Photo: Simon Simard for Berklee]{.photo-credit}
+
+I teach voice lessons and coach voice teachers privately, in person in the Boston area or online.
+
+[Visit the studio site](https://studio.kaylagautereaux.com){.cta-button}
 
 :::

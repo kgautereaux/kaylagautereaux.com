@@ -1,0 +1,42 @@
+# Brand: "Kayla" — pulled from her headshot and personal palette
+# Deep plum dress, dark slate-green backdrop, warm skin, quiet confidence.
+
+meta:
+  name: "Kayla Gautereaux"
+  link: https://kaylagautereaux.com
+
+color:
+  palette:
+    # From the headshot
+    deep-plum: "#4E2A4A"
+    plum: "#6B3A65"
+    soft-plum: "#8B5F85"
+    slate-green: "#4B544D"
+    sage: "#7A8B72"
+    light-sage: "#A8B5A0"
+    pale-sage: "#D4DDD0"
+
+    # Neutrals
+    warm-cream: "#F7F4F0"
+    linen: "#EDE8E2"
+    warm-grey: "#9E9690"
+    espresso: "#3A3330"
+    night: "#2A2523"
+
+  foreground: "#2A2523"
+  background: "#F7F4F0"
+  primary: "#6B3A65"
+  secondary: "#7A8B72"
+  info: "#9E9690"
+
+typography:
+  base:
+    family: "Libre Baskerville"
+    size: 1.0rem
+    line-height: 1.75
+  headings:
+    family: "DM Sans"
+    weight: 400
+    line-height: 1.2
+  monospace:
+    family: "JetBrains Mono"

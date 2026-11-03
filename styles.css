@@ -1,140 +1,1192 @@
-/* kaylagautereaux.com — custom styles */
+/* kaylagautereaux.com — "Kayla" brand
+   Deep plum + muted sage, pulled from headshot.
+   Warm cream ground. Quiet confidence. */
 
-/* Hero section */
+/* ========================================
+   Global
+   ======================================== */
+
+body {
+  background: #F8FAF9;
+  color: #1A2422;
+  font-family: "Newsreader", Georgia, serif;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+h3, h4, .navbar, .nav-footer {
+  font-family: "Instrument Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+h1, h2 {
+  font-family: "Newsreader", Georgia, serif;
+}
+
+/* Anchor links land below the fixed navbar */
+section[id] {
+  scroll-margin-top: 96px;
+}
+
+/* Homepage hero sits flush under the navbar */
+.page-layout-full #quarto-document-content {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* Kill default Quarto title on homepage */
+.page-layout-full #title-block-header {
+  display: none;
+}
+
+/* ========================================
+   Navbar
+   ======================================== */
+
+.navbar {
+  background: #0F3533 !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+  padding: 0.9rem 0;
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+  text-transform: none;
+}
+
+.navbar-brand,
+.navbar-brand .navbar-title {
+  font-family: "Newsreader", Georgia, serif;
+  font-weight: 400;
+  font-size: 1.35rem;
+  letter-spacing: 0.15em;
+  text-transform: none;
+  color: #F8FAF9 !important;
+}
+
+.navbar-nav .nav-link {
+  white-space: nowrap;
+  color: #BFDCD6 !important;
+  transition: color 0.2s;
+  font-weight: 400;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #F8FAF9 !important;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
+/* Social icons in nav */
+.navbar-nav .nav-link i {
+  color: #BFDCD6 !important;
+}
+
+.navbar-nav .nav-link:hover i {
+  color: #F8FAF9 !important;
+}
+
+/* ========================================
+   Hero — homepage
+   ======================================== */
+
 .hero {
-  text-align: center;
-  padding: 4rem 2rem;
-  max-width: 800px;
+  background:
+    linear-gradient(90deg, #0F3533 0%, #0F3533 38%, rgba(15, 53, 51, 0.55) 62%, rgba(15, 53, 51, 0) 85%),
+    url("images/hero.jpg") right 20% / cover no-repeat,
+    #0F3533;
+  color: #F8FAF9;
+  text-align: left;
+  padding: 7rem 2rem 6rem;
+  margin: 0;
+  margin-top: -1px;
+  min-height: 34rem;
+  display: flex;
+  align-items: center;
+}
+
+.hero-text {
+  max-width: 1140px;
+  width: 100%;
   margin: 0 auto;
 }
 
+.hero-text > * {
+  max-width: 540px;
+}
+
 .hero h1 {
-  font-size: 2.5rem;
-  font-weight: 300;
-  letter-spacing: 0.02em;
-  margin-bottom: 0.5rem;
+  font-family: "Newsreader", Georgia, serif;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: #F8FAF9;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
 }
 
 .hero .subtitle {
-  font-size: 1.15rem;
-  color: #555;
-  line-height: 1.6;
-  margin-bottom: 2rem;
+  font-family: "Newsreader", serif;
+  font-size: 1.05rem;
+  color: #BFDCD6;
+  line-height: 1.85;
+  margin-bottom: 2.5rem;
 }
 
-/* Impact stats strip */
+/* ========================================
+   Stats strip
+   ======================================== */
+
 .stats-strip {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 200px));
   justify-content: center;
-  gap: 2rem;
-  padding: 2rem 1rem;
-  background: #f8f9fa;
-  border-radius: 8px;
-  margin: 2rem 0;
+  gap: 3.5rem;
+  padding: 3.5rem 2rem;
+  background: #E8F1EF;
+  margin: 0;
+  border: none;
 }
 
 .stats-strip .stat {
   text-align: center;
-  min-width: 180px;
+  max-width: 200px;
 }
 
 .stats-strip .stat strong {
   display: block;
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #14504C;
+  margin-bottom: 0.3rem;
+  letter-spacing: 0.01em;
+}
+
+.stats-strip .stat-note {
+  font-size: 0.82rem;
+  color: #4F5F5C;
+}
+
+/* ========================================
+   Photos on inner pages
+   ======================================== */
+
+.content-section img.portrait {
+  float: right;
+  width: 38%;
+  max-width: 240px;
+  margin: 0.4rem 0 1.25rem 1.75rem;
+  border-radius: 2px;
+}
+
+.content-section img.wide-photo {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  object-position: 70% 30%;
+  border-radius: 2px;
+  margin-bottom: 1.5rem;
+}
+
+.content-section .quarto-figure,
+.content-section figure {
+  margin: 0;
+}
+
+/* ========================================
+   Content sections
+   ======================================== */
+
+.content-section {
+  max-width: 660px;
+  margin: 0 auto;
+  padding: 3.5rem 1.5rem;
+}
+
+.content-section h2 {
+  font-family: "Instrument Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #14504C;
+  margin-top: 3.5rem;
+  margin-bottom: 1.25rem;
+  letter-spacing: 0.02em;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.content-section h2::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  background: #5FBFAE;
+  margin-top: 0.6rem;
+}
+
+.content-section h3 {
+  font-family: "Instrument Sans", sans-serif;
+  font-weight: 500;
   font-size: 1.1rem;
-  color: #333;
+  color: #1A2422;
+  margin-top: 2rem;
 }
 
-.stats-strip .stat span {
-  font-size: 0.85rem;
-  color: #777;
+.content-section p {
+  color: #1A2422;
+  margin-bottom: 1.25rem;
 }
 
-/* Feature cards */
-.feature-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
-  margin: 3rem 0;
+.content-section ul {
+  color: #1A2422;
 }
 
-.feature-card {
-  padding: 1.5rem;
-  border: 1px solid #e9ecef;
-  border-radius: 8px;
-  transition: box-shadow 0.2s;
-}
-
-.feature-card:hover {
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
-}
-
-.feature-card h3 {
-  font-size: 1.1rem;
+.content-section li {
   margin-bottom: 0.5rem;
 }
 
+.content-section a {
+  color: #1F7A72;
+  text-decoration: none;
+  border-bottom: 1px solid #1F7A7230;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.content-section a:hover {
+  color: #14504C;
+  border-bottom-color: #1F7A72;
+}
+
+/* ========================================
+   Feature cards — homepage
+   ======================================== */
+
+.feature-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  max-width: 780px;
+  margin: 0 auto 5rem;
+  padding: 0 1.5rem;
+}
+
+.feature-card {
+  padding: 2.25rem 2rem;
+  background: #FFFFFF;
+  border: 1px solid #E8F1EF;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.feature-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;
+  height: 0;
+  background: #1F7A72;
+  transition: height 0.3s ease;
+}
+
+.feature-card:hover {
+  border-color: #D3E7E2;
+  box-shadow: 0 8px 30px rgba(15, 53, 51, 0.06);
+}
+
+.feature-card:hover::before {
+  height: 100%;
+}
+
+.feature-card h3 {
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #0F3533;
+  margin-bottom: 0.75rem;
+  margin-top: 0;
+  letter-spacing: 0.02em;
+}
+
 .feature-card p {
-  font-size: 0.95rem;
-  color: #555;
-  line-height: 1.5;
+  font-family: "Newsreader", serif;
+  font-size: 0.88rem;
+  color: #4F5F5C;
+  line-height: 1.7;
+  margin-bottom: 1.25rem;
 }
 
-/* Section spacing */
-.content-section {
-  max-width: 760px;
-  margin: 0 auto;
-  padding: 2rem 1rem;
+.feature-card a {
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 0.8rem;
+  color: #5FBFAE;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: none;
+  transition: color 0.2s;
 }
 
-/* CTA buttons */
+.feature-card a:hover {
+  color: #14504C;
+}
+
+/* ========================================
+   CTA buttons
+   ======================================== */
+
 .cta-button {
   display: inline-block;
-  padding: 0.75rem 1.5rem;
-  background: #333;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 4px;
-  font-size: 0.95rem;
-  margin: 0.5rem 0.5rem 0.5rem 0;
-  transition: background 0.2s;
+  padding: 0.9rem 2.25rem;
+  background: #1F7A72;
+  color: #F8FAF9 !important;
+  text-decoration: none !important;
+  border-radius: 2px;
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: none;
+  margin: 0.5rem 0.75rem 0.5rem 0;
+  transition: all 0.25s ease;
+  border: none;
 }
 
 .cta-button:hover {
-  background: #555;
-  color: #fff;
-  text-decoration: none;
+  background: #14504C;
+  color: #F8FAF9 !important;
+  text-decoration: none !important;
+  box-shadow: 0 4px 15px rgba(20, 80, 76, 0.3);
 }
 
 .cta-button.secondary {
   background: transparent;
-  color: #333;
-  border: 1px solid #333;
+  color: #BFDCD6 !important;
+  border: 1.5px solid #BFDCD6;
 }
 
 .cta-button.secondary:hover {
-  background: #f8f9fa;
+  color: #F8FAF9 !important;
+  border-color: #F8FAF9;
+  background: transparent;
 }
 
-/* Singer section */
+/* Outline button for light backgrounds */
+.cta-button.outline {
+  background: transparent;
+  color: #1F7A72 !important;
+  border: 1.5px solid #1F7A72;
+}
+
+.cta-button.outline:hover {
+  background: #1F7A72;
+  color: #F8FAF9 !important;
+}
+
+.content-section a.cta-button {
+  border-bottom: none;
+}
+
+/* ========================================
+   Callout boxes (research page)
+   ======================================== */
+
+.callout-note {
+  border-left-color: #1F7A72 !important;
+  background: #E8F1EF !important;
+}
+
+/* ========================================
+   Singer section
+   ======================================== */
+
 .singer-section {
-  margin-top: 3rem;
-  padding-top: 2rem;
-  border-top: 1px solid #e9ecef;
+  margin-top: 4rem;
+  padding-top: 3rem;
+  border-top: 1px solid #E8F1EF;
 }
 
-/* Responsive */
-@media (max-width: 600px) {
-  .hero h1 {
-    font-size: 1.8rem;
+/* ========================================
+   Page titles — inner pages
+   ======================================== */
+
+#title-block-header {
+  max-width: 660px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 0;
+}
+
+/* Page descriptions are for search and social previews, not on-page */
+#title-block-header .description {
+  display: none;
+}
+
+#title-block-header h1.title {
+  font-family: "Instrument Sans", sans-serif;
+  font-weight: 300;
+  font-size: 2.2rem;
+  color: #14504C;
+  letter-spacing: 0.02em;
+}
+
+#title-block-header h1.title::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #5FBFAE;
+  margin-top: 0.75rem;
+}
+
+/* ========================================
+   Footer
+   ======================================== */
+
+.nav-footer {
+  background: #0F3533;
+  border-top: none;
+  font-size: 0.8rem;
+  color: #6E7F7B;
+  padding: 2rem 0;
+  letter-spacing: 0.03em;
+}
+
+.nav-footer a {
+  color: #BFDCD6 !important;
+}
+
+/* ========================================
+   Responsive
+   ======================================== */
+
+@media (max-width: 1200px) {
+  .navbar {
+    letter-spacing: 0.02em;
+  }
+
+  .navbar-nav .nav-link {
+    padding-left: 0.45rem !important;
+    padding-right: 0.45rem !important;
   }
 
   .stats-strip {
-    flex-direction: column;
-    align-items: center;
+    grid-template-columns: repeat(2, minmax(0, 240px));
+    gap: 2rem 3rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .feature-cards {
+    grid-template-columns: 1fr;
+    max-width: 660px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 20rem 1.25rem 3rem;
+    min-height: 0;
+    background:
+      linear-gradient(180deg, rgba(15, 53, 51, 0) 0%, rgba(15, 53, 51, 0.2) 35%, #0F3533 62%),
+      url("images/hero.jpg") 72% top / auto 26rem no-repeat,
+      #0F3533;
+  }
+
+  .content-section img.portrait {
+    float: none;
+    display: block;
+    width: 60%;
+    max-width: 260px;
+    margin: 0 auto 1.75rem;
+  }
+
+  .navbar-brand,
+  .navbar-brand .navbar-title {
+    font-size: 1.1rem;
+    letter-spacing: 0.1em;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero .subtitle {
+    font-size: 0.95rem;
+  }
+
+  .stats-strip {
+    grid-template-columns: minmax(0, 280px);
+    gap: 1.5rem;
+    padding: 2.5rem 1.5rem;
   }
 
   .feature-cards {
     grid-template-columns: 1fr;
+    gap: 1rem;
   }
+
+  .content-section {
+    padding: 2.5rem 1.25rem;
+  }
+}
+
+/* ========================================
+   Contact page email
+   ======================================== */
+
+.content-section a.contact-email {
+  display: inline-block;
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 1.35rem;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: #14504C;
+  border-bottom: 2px solid #BFDCD6;
+  margin: 0.25rem 0 0.75rem;
+}
+
+/* ========================================
+   Work images
+   ======================================== */
+
+.feature-card img.card-img {
+  display: block;
+  width: calc(100% + 4rem);
+  max-width: none;
+  margin: -2.25rem -2rem 1.5rem;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border-bottom: 1px solid #E8F1EF;
+}
+
+.feature-card .quarto-figure,
+.feature-card figure,
+.feature-card p:has(> img.card-img) {
+  margin: 0;
+}
+
+.content-section img.lab-photo {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  border-radius: 2px;
+  margin: 0.5rem 0 1.5rem;
+}
+
+/* ========================================
+   Podcast players
+   ======================================== */
+
+.content-section iframe.podcast-player {
+  display: block;
+  border: none;
+  margin: 0.5rem 0 1.75rem;
+}
+
+/* ========================================
+   Photo credits
+   ======================================== */
+
+.photo-credit {
+  display: block;
+  margin: -1.1rem 0 1.5rem;
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.03em;
+  color: #6E7F7B;
+  text-align: right;
+}
+
+.feature-card .photo-credit.card-credit {
+  margin: 1rem 0 0;
+  text-align: left;
+}
+
+/* ========================================
+   Singing photo grid (About)
+   ======================================== */
+
+.singing-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+  margin: 1.5rem 0 1rem;
+}
+
+.singing-gallery p {
+  display: contents;
+}
+
+.singing-gallery img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 2px;
+  margin: 0;
+}
+
+.singing-gallery img.focus-face {
+  object-position: 45% 30%;
+}
+
+.singing-gallery img.focus-left {
+  object-position: 35% 30%;
+}
+
+/* ========================================
+   Video embed (homepage)
+   ======================================== */
+
+.video-embed {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin: 2rem 0 0.5rem;
+  background: #0F3533;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.video-embed iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.video-caption {
+  display: block;
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+  color: #4F5F5C;
+}
+
+/* ========================================
+   Layout pieces (Nov 2026 restructure)
+   Split hero, text-beside-media rows,
+   full-width photo band, screenshot row,
+   two-column lists
+   ======================================== */
+
+/* Split hero: text on a dark panel, photo uncovered beside it */
+.hero.hero-split {
+  display: grid;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+  align-items: stretch;
+  padding: 0;
+  min-height: 36rem;
+  background: #0F3533;
+}
+
+.hero.hero-split .hero-text {
+  align-self: center;
+  max-width: none;
+  margin: 0;
+  padding: 5rem 3rem 5rem max(2rem, calc((100vw - 1140px) / 2));
+}
+
+.hero.hero-split .hero-text > * {
+  max-width: 460px;
+}
+
+.hero-media {
+  position: relative;
+  min-height: 100%;
+}
+
+.hero-media p {
+  margin: 0;
+  height: 100%;
+}
+
+.hero-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 55% 40%;
+}
+
+.photo-credit.on-image {
+  position: absolute;
+  right: 0.9rem;
+  bottom: 0.6rem;
+  margin: 0;
+  color: rgba(247, 244, 240, 0.85);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* Text beside media; .reverse puts the media on the left */
+.split {
+  display: grid;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
+  gap: 3.5rem;
+  align-items: center;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 4.5rem 2rem;
+}
+
+.split.reverse .split-media {
+  order: -1;
+}
+
+.split + .split {
+  padding-top: 0;
+}
+
+.split-text h2 {
+  font-family: "Instrument Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #14504C;
+  margin: 0 0 1rem;
+  border-bottom: none;
+}
+
+.split-text h2::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  background: #5FBFAE;
+  margin-top: 0.6rem;
+}
+
+.split-text p {
+  color: #1A2422;
+}
+
+.split-text a {
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: none;
+  color: #1F7A72;
+  text-decoration: none;
+  margin-right: 1.25rem;
+}
+
+.split-text a:hover {
+  color: #14504C;
+}
+
+.split-media {
+  position: relative;
+}
+
+.split-media p {
+  margin: 0;
+}
+
+.split-media img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+.split-media img.screenshot {
+  aspect-ratio: auto;
+  object-fit: contain;
+  border: 1px solid #E8F1EF;
+  box-shadow: 0 12px 36px rgba(15, 53, 51, 0.12);
+}
+
+.split-media .photo-credit {
+  margin: 0.4rem 0 0;
+}
+
+.split-media .video-embed {
+  margin: 0;
+}
+
+.split-media .video-caption {
+  margin-top: 0.5rem;
+}
+
+/* Full-width photo band with a short line and link */
+.photo-band {
+  position: relative;
+  min-height: 30rem;
+  margin: 1rem 0 0;
+  overflow: hidden;
+  background: #0F3533;
+}
+
+.photo-band > p:first-child {
+  margin: 0;
+}
+
+.photo-band img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 35%;
+}
+
+.photo-band .band-text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 6rem max(2rem, calc((100vw - 1080px) / 2)) 2.5rem;
+  background: linear-gradient(180deg, rgba(15, 53, 51, 0) 0%, rgba(15, 53, 51, 0.85) 70%);
+  color: #F8FAF9;
+}
+
+.photo-band .band-text p {
+  font-family: "Newsreader", Georgia, serif;
+  font-size: clamp(1.6rem, 3vw, 2.3rem);
+  letter-spacing: 0.02em;
+  line-height: 1.25;
+  margin: 0 0 0.75rem;
+  max-width: 640px;
+}
+
+.photo-band .band-text a {
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: none;
+  color: #BFDCD6;
+  text-decoration: none;
+}
+
+.photo-band .band-text a:hover {
+  color: #F8FAF9;
+}
+
+/* Row of screenshots with captions */
+.shot-row {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.shot-row p {
+  margin: 0;
+}
+
+.shot-row img {
+  display: block;
+  width: 100%;
+  border: 1px solid #E8F1EF;
+  border-radius: 2px;
+  box-shadow: 0 6px 20px rgba(15, 53, 51, 0.08);
+}
+
+.shot-row .shot-caption {
+  display: block;
+  margin-top: 0.5rem;
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 0.78rem;
+  color: #4F5F5C;
+}
+
+/* Two short lists side by side */
+.two-col {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 2.5rem;
+}
+
+.two-col ul {
+  font-size: 0.92rem;
+  padding-left: 1.1rem;
+}
+
+/* Stack everything below tablet width */
+@media (max-width: 860px) {
+  .hero.hero-split {
+    grid-template-columns: 1fr;
+    min-height: 0;
+    padding: 0;
+    background: #0F3533;
+  }
+
+  .hero.hero-split .hero-media {
+    order: -1;
+    aspect-ratio: 3 / 2;
+  }
+
+  .hero.hero-split .hero-text {
+    padding: 2.5rem 1.25rem 3rem;
+  }
+
+  .split,
+  .split.reverse {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 3rem 1.25rem;
+  }
+
+  .split .split-media,
+  .split.reverse .split-media {
+    order: -1;
+  }
+
+  .photo-band {
+    min-height: 24rem;
+  }
+
+  .photo-band .band-text {
+    padding: 5rem 1.25rem 2rem;
+  }
+
+  .shot-row,
+  .two-col {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Photo band text sits right, clear of the singer; band meets the footer */
+.photo-band .band-text {
+  text-align: right;
+}
+
+.photo-band .band-text p {
+  margin-left: auto;
+}
+
+.page-layout-full #quarto-document-content {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.page-layout-full .photo-band:last-child {
+  margin-bottom: -1px;
+}
+
+@media (max-width: 860px) {
+  .photo-band .band-text {
+    text-align: left;
+  }
+}
+
+/* Quarto reserves a 60px bottom row; drop it on the full-width homepage */
+#quarto-content.page-layout-full.page-rows-contents {
+  grid-template-rows: [content-top] min-content [content-bottom] 0 [page-bottom];
+}
+
+.photo-band .band-text .band-caption {
+  display: block;
+  font-family: "Newsreader", Georgia, serif;
+  font-size: 0.9rem;
+  color: rgba(247, 244, 240, 0.85);
+  margin-bottom: 0.5rem;
+}
+
+
+/* ========================================
+   Deep teal theme (Nov 2026)
+   Newsreader for name and headings, Instrument Sans for
+   menus, buttons and labels. Teal from the spectrogram
+   in the hero photo; seafoam accent on dark panels.
+   ======================================== */
+
+.navbar {
+  font-size: 0.95rem;
+  letter-spacing: 0;
+}
+
+.navbar-brand,
+.navbar-brand .navbar-title {
+  font-family: "Newsreader", Georgia, serif;
+  font-size: 1.4rem;
+  letter-spacing: 0;
+  color: #FFFFFF !important;
+}
+
+.navbar-nav .nav-link.active {
+  color: #FFFFFF !important;
+  font-weight: 500;
+}
+
+.hero h1 {
+  font-family: "Newsreader", Georgia, serif;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  color: #FFFFFF;
+}
+
+.hero .subtitle {
+  font-family: "Instrument Sans", system-ui, sans-serif;
+  color: #D3E7E2;
+}
+
+.cta-button {
+  border-radius: 999px;
+  letter-spacing: 0;
+  font-size: 0.95rem;
+  padding: 0.8rem 1.9rem;
+}
+
+.cta-button:hover {
+  background: #14504C;
+  box-shadow: none;
+}
+
+/* Buttons on the dark hero: seafoam fill, light outline */
+.hero .cta-button {
+  background: #5FBFAE;
+  color: #0F3533 !important;
+}
+
+.hero .cta-button:hover {
+  background: #7FD1C2;
+  color: #0F3533 !important;
+}
+
+.hero .cta-button.secondary {
+  background: transparent;
+  color: #E6F2EF !important;
+  border: 1.5px solid #BFDCD6;
+}
+
+.hero .cta-button.secondary:hover {
+  border-color: #FFFFFF;
+  color: #FFFFFF !important;
+}
+
+.cta-button.outline:hover {
+  background: #1F7A72;
+}
+
+#title-block-header h1.title,
+.content-section h2,
+.split-text h2 {
+  font-family: "Newsreader", Georgia, serif;
+  font-weight: 400;
+  color: #14504C;
+  letter-spacing: 0;
+}
+
+#title-block-header h1.title {
+  font-size: 2.8rem;
+}
+
+.content-section h2 {
+  font-size: 1.7rem;
+}
+
+.split-text h2 {
+  font-size: 2rem;
+}
+
+.content-section h3 {
+  color: #14504C;
+}
+
+.split-text a,
+.photo-band .band-text a {
+  letter-spacing: 0;
+  font-size: 0.92rem;
+}
+
+.photo-band .band-text a {
+  color: #BFDCD6;
+}
+
+.stats-strip .stat strong {
+  color: #14504C;
+}
+
+.nav-footer,
+.nav-footer a {
+  color: #BFDCD6 !important;
+}
+
+/* About: keep text from wrapping into a sliver beside the portrait */
+.content-section h2 {
+  clear: both;
+}
+
+.content-section img.screenshot-frame {
+  aspect-ratio: auto;
+  object-fit: contain;
+  border: 1px solid #E8F1EF;
+  box-shadow: 0 10px 30px rgba(15, 53, 51, 0.12);
+}
+
+/* Outline buttons keep all four edges inside page text */
+.content-section a.cta-button.outline {
+  border: 1.5px solid #1F7A72;
+}
+
+/* ========================================
+   Stats: large figure, short label, one tight row
+   ======================================== */
+
+.stats-strip {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  justify-content: stretch;
+  gap: 2rem;
+  padding: 2.75rem max(2rem, calc((100vw - 1080px) / 2));
+  background: #E8F1EF;
+}
+
+.stats-strip .stat {
+  max-width: none;
+  text-align: left;
+  border-left: 2px solid #5FBFAE;
+  padding-left: 1rem;
+}
+
+.stats-strip .stat p {
+  margin: 0;
+}
+
+.stats-strip .stat-big {
+  display: block;
+  font-family: "Newsreader", Georgia, serif;
+  font-size: 2.3rem;
+  line-height: 1.05;
+  color: #14504C;
+  margin-bottom: 0.4rem;
+}
+
+.stats-strip .stat-note {
+  display: block;
+  font-family: "Instrument Sans", system-ui, sans-serif;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  color: #4F5F5C;
+}
+
+@media (max-width: 1200px) {
+  .stats-strip {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 860px) {
+  .stats-strip {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.75rem 1.25rem;
+    padding: 2.25rem 1.25rem;
+  }
+
+  .stats-strip .stat-big {
+    font-size: 1.9rem;
+  }
+}
+
+/* Long award name breaks at the slash on narrow screens */
+.stats-strip .stat-note {
+  overflow-wrap: anywhere;
 }

@@ -4,3 +4,15 @@
 *.html
 !_quarto.yml
 .DS_Store
+
+**/*.quarto_ipynb
+
+# Never commit or publish these
+Kayla Gautereaux Headshots.zip
+Kayla Gautereaux Headshots/
+brand-options/
+brand-strategy.md
+/.claude/
+
+# Symlink to ../shared-design (outside this repo); not used by the Quarto build
+/shared-design

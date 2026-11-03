@@ -1,14 +1,17 @@
 ---
 title: "Contact"
+description: "Contact Kayla Gautereaux about speaking, consulting, research collaboration, or private lessons."
 ---
 
 ::: {.content-section}
 
-**Kayla Gautereaux**
-Newton, MA
+**Kayla Gautereaux**\
+Boston area
 
-For professional inquiries, speaking engagements, private lessons, or collaboration:
+Email is the best way to reach me about talks, consulting, research, or lessons.
 
-**[kgautereaux@berklee.edu](mailto:kgautereaux@berklee.edu)**
+[kgautereaux@gmail.com](mailto:kgautereaux@gmail.com){.contact-email}
+
+I'm also on [LinkedIn](https://linkedin.com/in/kaylagautereaux).
 
 :::

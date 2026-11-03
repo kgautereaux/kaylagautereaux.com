@@ -1,40 +1,71 @@
 project:
   type: website
   output-dir: docs
+  # Render only the public pages. Keeps brand-strategy.md, brand-options/,
+  # the headshot archive and shared-design/*.md out of the published site.
+  render:
+    - index.qmd
+    - about.qmd
+    - teaching.qmd
+    - ai-learning.qmd
+    - speaking.qmd
+    - contact.qmd
+  resources:
+    # Add "- CNAME" back here when switching DNS to GitHub Pages (see DEPLOY.md).
+    # Until then, the site is reviewed at kgautereaux.github.io/kaylagautereaux.com.
+    - favicon.svg
+    - images/favicon-32.png
+    - images/apple-touch-icon.png
+    - images/og-card.jpg
+    - images/hero.jpg
 
 website:
   title: "Kayla Gautereaux"
-  description: "Voice scientist. Educator. Builder."
+  description: "Kayla Gautereaux teaches voice and vocal pedagogy at Boston Conservatory at Berklee, where she leads the graduate vocal pedagogy area."
   site-url: https://kaylagautereaux.com
+  favicon: favicon.svg
+  search: false
+  image: images/og-card.jpg
+  open-graph:
+    locale: en_US
+    site-name: "Kayla Gautereaux"
+    image: images/og-card.jpg
+    image-width: 1200
+    image-height: 630
+  twitter-card:
+    card-style: summary_large_image
+    image: images/og-card.jpg
   navbar:
     background: light
     left:
       - text: About
         href: about.qmd
-      - text: Teaching & Programs
+      - text: Teaching
         href: teaching.qmd
       - text: Research
-        href: research.qmd
-      - text: AI & Voice
-        href: ai-voice.qmd
-      - text: Speaking
-        href: speaking.qmd
-      - text: Private Studio
-        href: studio.qmd
+        href: https://research.kaylagautereaux.com
+      - text: AI & Learning
+        href: ai-learning.qmd
       - text: Contact
         href: contact.qmd
+  page-footer:
+    left: "&copy; 2026 Kayla Gautereaux · Updated November 2026"
     right:
-      - icon: instagram
-        href: https://instagram.com/kaylajanegautereaux
-        target: _blank
-      - icon: youtube
-        href: https://youtube.com/@voiceboxchannel
-        target: _blank
+      - text: Research Archive
+        href: https://research.kaylagautereaux.com
+      - text: Studio
+        href: https://studio.kaylagautereaux.com
+      - text: Presentations & Media
+        href: speaking.qmd
       - icon: linkedin
         href: https://linkedin.com/in/kaylagautereaux
-        target: _blank
-  page-footer:
-    center: "&copy; 2026 Kayla Gautereaux"
+        aria-label: LinkedIn
+      - icon: instagram
+        href: https://instagram.com/kaylajanegautereaux
+        aria-label: Instagram
+      - icon: youtube
+        href: https://youtube.com/@voiceboxchannel
+        aria-label: YouTube
 
 format:
   html:
@@ -42,3 +73,12 @@ format:
       light: flatly
     css: styles.css
     toc: false
+    link-external-newwindow: false
+    include-in-header:
+      text: |
+        <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png">
+        <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+        <meta name="theme-color" content="#0F3533">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..600;1,6..72,300..600&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
