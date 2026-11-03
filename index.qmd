@@ -92,9 +92,11 @@ Since 2022 I have led research in Boston Conservatory's graduate vocal pedagogy 
 ::: {.split-text}
 ## Teaching
 
-I lead the MM in Vocal Pedagogy and the MFA in Musical Theater Vocal Pedagogy, and I direct the Vocal Pedagogy Professional Workshop for working voice teachers.
+I lead the MM in Vocal Pedagogy and the MFA in Musical Theater Vocal Pedagogy. I also direct two programs open to the public: a summer workshop for working voice teachers, and Vocal Academy, where adult singers take lessons with our graduate students.
 
 [Teaching →](teaching.qmd)
+[Summer workshop →](https://bostonconservatory.berklee.edu/extension-programs/vocal-pedagogy-professional-workshop)
+[Vocal Academy →](https://bostonconservatory.berklee.edu/extension-programs/vocal-academy)
 :::
 
 ::: {.split-media}

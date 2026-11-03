@@ -28,7 +28,7 @@ The first publish leaves the custom domain off on purpose. With a CNAME file in 
 
 Do this only after the github.io site looks right. Keep Squarespace active until the new site is confirmed live.
 
-1. **Attach the domain (Claude can do this when Kayla says go).** In `_quarto.yml`, add `- CNAME` back under `resources:` and run `quarto publish gh-pages --no-prompt`. That publishes the CNAME file, which sets `kaylagautereaux.com` as the custom domain in the repo's Settings → Pages. From then on the github.io address redirects to kaylagautereaux.com, so do steps 2 to 5 right away.
+1. **Attach the domain (Claude can do this when Kayla says go).** Create a file named `CNAME` in the project root containing `kaylagautereaux.com`, set `site-url: https://kaylagautereaux.com` in `_quarto.yml`, and run `quarto publish gh-pages --no-prompt`. (Quarto publishes a root `CNAME` file automatically, which is why it is left out until this step.) That publishes the CNAME file, which sets `kaylagautereaux.com` as the custom domain in the repo's Settings → Pages. From then on the github.io address redirects to kaylagautereaux.com, so do steps 2 to 5 right away.
    Also, on your GitHub profile, go to Settings → Pages → "Verified domains" and add `kaylagautereaux.com`. GitHub gives you a TXT record to add in GoDaddy. This stops anyone else from claiming your domain on GitHub.
 2. **GoDaddy.** Sign in, open My Products → kaylagautereaux.com → DNS.
 3. **Leave these alone**: the `research` and `studio` CNAME records, and any MX or TXT records for email.
