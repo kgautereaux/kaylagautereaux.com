@@ -80,7 +80,7 @@ Page IDs: the old `ai-voice`, `learning-tools`, `research`, and `studio` pages w
 - Leads the area since 2024: she *leads* the MM in Vocal Pedagogy and MFA in Musical Theater Vocal Pedagogy (never "directs"). The MM is genre-inclusive, never "the classical track."
 - *Directs* the Vocal Pedagogy Professional Workshop (VPPW) and Vocal Academy.
 - MGH Voice Center partnership predates her; she *strengthened* it.
-- Acoustic Vocal Pedagogy Workshop (Embodied Music Lab): faculty and organizer since 2019. She did not found it.
+- Acoustic Vocal Pedagogy Workshop (Embodied Music Lab): on the faculty since 2019. She did not found it, and the site should not say she organizes it.
 - Do not say she taught herself Python.
 - Mezzo-soprano. 2022 Earthshot Prize Awards in Boston: backup for Ellie Goulding's "Still Falling for You," with the Prince and Princess of Wales in the audience.
 - AI Supported Voice Studio Portal: PAVA 2026 Best Microworkshop/ToolTalk. Research archive: 33 studies, 17 topics, 2022–2026, built and maintained with Claude.
