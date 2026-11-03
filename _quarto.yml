@@ -43,6 +43,8 @@ website:
         href: teaching.qmd
       - text: Research
         href: https://research.kaylagautereaux.com
+      - text: Voice Studio
+        href: https://studio.kaylagautereaux.com
       - text: AI & Learning
         href: ai-learning.qmd
       - text: Contact
