@@ -1,0 +1,226 @@
+[
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Kayla Gautereaux\nBoston area\nEmail is the best way to reach me about talks, consulting, research, or lessons.\nkgautereaux@gmail.com\nI’m also on LinkedIn."
+  },
+  {
+    "objectID": "ai-learning.html",
+    "href": "ai-learning.html",
+    "title": "AI and Learning",
+    "section": "",
+    "text": "I use AI as a partner in teaching and learning, not as a replacement for either. The teacher still runs the lesson, and the student still does the work of learning. AI can help keep a record of the lesson, prepare for the next one, and give students structure for the practice they do on their own, when no teacher is in the room.\n\n\nI started building this portal in 2024 for my own voice students. I now use it with all of my private students, and in 2026 it won the Pan American Vocology Association’s Best Microworkshop/ToolTalk award.\nTry the demo Visit the studio portal\nThe demo uses sample student data, so you can look through lesson briefs, practice plans, and progress tracking without an account.\n\n\n Dashboard\n\n\n Lesson debrief and reflection\n\n\n Practice plan and log\n\n\n\n\n\nTranscribes lessons and summarizes what we worked on and how the student responded\nPrepares a brief before each lesson from the student’s past lessons, reflections, and repertoire\nWrites an individual practice plan after each lesson\nGives students a web page where they can see their progress, reflections, and plans\n\n\n\n\nIt is written in Python and uses the Claude API from Anthropic, with Supabase for the database and logins. The AI’s instructions are based on my teaching framework, including the co-investigation model, motor learning phases, an exercise taxonomy, and safety guidelines.\n\n\n\n\nI built a public archive of the graduate research from Boston Conservatory’s vocal pedagogy program. It holds 33 studies from 2022 to 2026 across 17 topics. Readers can search the catalog, follow a topic across cohorts, and explore the data in interactive figures. It is meant for students planning their own studies and for teachers looking for research they can bring into their studios. All data are confidentialized under Berklee’s institutional review board. I built the archive with Claude, Anthropic’s AI model, and I maintain it with Claude as well.\nGo to the research archive\n\n\n\n\nMost of what happens in a lesson is never written down, and students forget much of it by the next week. The portal keeps a record that the student and teacher can both go back to. Graduate theses have a similar problem, since few people read them once they are filed, so the archive makes them public and searchable. I expect AI tools like this to become a normal part of teaching, and I think teachers should be involved in building them.\n\n\n\nIan Howell, Theodora Nestorova, and I talked about AI and teaching on the VocalFri Podcast in April 2026:\n\n\n\n\n\nI’m open to consulting and advisory work with companies building learning technology and with schools rethinking how teachers are trained.\nGet in touch"
+  },
+  {
+    "objectID": "ai-learning.html#the-ai-supported-voice-studio-portal",
+    "href": "ai-learning.html#the-ai-supported-voice-studio-portal",
+    "title": "AI and Learning",
+    "section": "",
+    "text": "I started building this portal in 2024 for my own voice students. I now use it with all of my private students, and in 2026 it won the Pan American Vocology Association’s Best Microworkshop/ToolTalk award.\nTry the demo Visit the studio portal\nThe demo uses sample student data, so you can look through lesson briefs, practice plans, and progress tracking without an account.\n\n\n Dashboard\n\n\n Lesson debrief and reflection\n\n\n Practice plan and log\n\n\n\n\n\nTranscribes lessons and summarizes what we worked on and how the student responded\nPrepares a brief before each lesson from the student’s past lessons, reflections, and repertoire\nWrites an individual practice plan after each lesson\nGives students a web page where they can see their progress, reflections, and plans\n\n\n\n\nIt is written in Python and uses the Claude API from Anthropic, with Supabase for the database and logins. The AI’s instructions are based on my teaching framework, including the co-investigation model, motor learning phases, an exercise taxonomy, and safety guidelines."
+  },
+  {
+    "objectID": "ai-learning.html#the-vocal-pedagogy-research-archive",
+    "href": "ai-learning.html#the-vocal-pedagogy-research-archive",
+    "title": "AI and Learning",
+    "section": "",
+    "text": "I built a public archive of the graduate research from Boston Conservatory’s vocal pedagogy program. It holds 33 studies from 2022 to 2026 across 17 topics. Readers can search the catalog, follow a topic across cohorts, and explore the data in interactive figures. It is meant for students planning their own studies and for teachers looking for research they can bring into their studios. All data are confidentialized under Berklee’s institutional review board. I built the archive with Claude, Anthropic’s AI model, and I maintain it with Claude as well.\nGo to the research archive"
+  },
+  {
+    "objectID": "ai-learning.html#why-i-build-these",
+    "href": "ai-learning.html#why-i-build-these",
+    "title": "AI and Learning",
+    "section": "",
+    "text": "Most of what happens in a lesson is never written down, and students forget much of it by the next week. The portal keeps a record that the student and teacher can both go back to. Graduate theses have a similar problem, since few people read them once they are filed, so the archive makes them public and searchable. I expect AI tools like this to become a normal part of teaching, and I think teachers should be involved in building them."
+  },
+  {
+    "objectID": "ai-learning.html#listen",
+    "href": "ai-learning.html#listen",
+    "title": "AI and Learning",
+    "section": "",
+    "text": "Ian Howell, Theodora Nestorova, and I talked about AI and teaching on the VocalFri Podcast in April 2026:"
+  },
+  {
+    "objectID": "ai-learning.html#consulting",
+    "href": "ai-learning.html#consulting",
+    "title": "AI and Learning",
+    "section": "",
+    "text": "I’m open to consulting and advisory work with companies building learning technology and with schools rethinking how teachers are trained.\nGet in touch"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I’m a mezzo-soprano, voice teacher, scholar, and program leader. At Boston Conservatory at Berklee, where I’m Assistant Professor of Voice and Vocal Pedagogy, I lead the graduate vocal pedagogy area and supervise graduate students’ research.\n\n\nI studied vocal performance at San Diego State University and began teaching voice privately in 2012. While I was still a student, I co-founded the Folklore Guild, a choir that sang video game and film music, and I spent three years as Director of Development and Education for Bach Collegium San Diego. There I helped double the ensemble’s annual budget and used grants from the National Endowment for the Arts and the City of San Diego to start open rehearsals and lectures for students in Title I schools. It was my first time building an education program from the ground up.\n\n   \n\n\n\n\n\nI moved to Boston for a master’s degree in vocal pedagogy at New England Conservatory and stayed on in two jobs at once: Assistant Vocal Pedagogy Director on the faculty, and manager of the Voice and Sound Analysis Lab. Since 2019 I have been on the faculty of the Acoustic Vocal Pedagogy Workshop, now run by the Embodied Music Lab, and have helped organize it. When the pandemic moved lessons online, Ian Howell and I ran SoundJack Bootcamp to help musicians rehearse together over the internet and published a comparison of audio quality on the major video-call platforms.\nAt the same time I worked as a research assistant at the Massachusetts General Hospital (MGH) Voice Center on a study of ambulatory voice monitoring.\n\n\n\nBoston Conservatory hired me in 2022 to lead the research side of two graduate degrees in voice teaching and singing, and to help students build their skills in scholarly reading, research, and publication. Since then we have built a voice science lab and a thesis sequence in quantitative and mixed methods with institutional review board (IRB) review for every study. I have also strengthened the conservatory’s existing partnership with the MGH Voice Center, which gives incoming voice students a screening and follow-up care. Student theses are collected in a public research archive.\nIn 2024 I took on leadership of the whole area, which includes the MM in Vocal Pedagogy and the MFA in Musical Theater Vocal Pedagogy. Alumni of the program have given 35 conference presentations since 2022, 19 of them at the Voice Foundation’s annual symposium, and graduates now teach at Oberlin, Brown, Catholic University of America, Oklahoma State, and UMass Amherst. I also direct the Vocal Pedagogy Professional Workshop for working voice teachers. In 2023 the National Association of Teachers of Singing (NATS) gave me its Voice Pedagogy Award.\n\n\n\n Photo: Simon Simard for Berklee\nI call my approach scientific method informed voice teaching. In a lesson, I listen and watch, the student tells me what they feel, and we decide together what to try next. We keep what turns out to be observable, measurable, and repeatable. Over time I want students to be able to run these experiments on their own.\nI tell my graduate students that research is a form of artistic expression, and that the best questions in voice research come from what teachers notice in their own studios. I talked about all of this on the VocalFri Podcast in 2025:\n\n\n\n\n\nIn 2024 I started building the AI Supported Voice Studio Portal, which I now use with my private students. After each lesson it produces a debrief and a practice plan, and students use it to track their progress between lessons. In 2026 it won the Pan American Vocology Association’s Best Microworkshop/ToolTalk award. More about the portal.\nI want good voice pedagogy training to be available to teachers who cannot move to a conservatory city or pay conservatory tuition, and most of what I build now is meant for them.\n\n\n\nI present regularly at the Voice Foundation Symposium, the Pan American Vocology Association, and the National Association of Teachers of Singing, usually with the graduate students whose research I supervise. Recent work includes:\n\nGautereaux, Kayla, with Ian Howell and Cary Lee. “AI and the Voice Studio: Opportunity, Ethics, and Expertise.” NATS Chat webinar, October 2026.\nGautereaux, Kayla. “AI Supported Voice Studio Portal.” Pan American Vocology Association Symposium, 2026. Winner, Best Microworkshop/ToolTalk.\nHowell, Ian, and Kayla Gautereaux. “Special Acts of Breathing: Visualizing Respiration with RespTrack.” NATS National Conference, July 2026.\nMeikle, Brianna, Kayla Gautereaux, et al. “Performance Anxiety and Co-Regulation in the Vocal Audition.” Voice Foundation Symposium, May 2026.\n\nFull list of presentations and publications →\n\n\n\nI perform as a soloist and in choirs, and I sang backup for Ellie Goulding’s “Still Falling for You” at the 2022 Earthshot Prize Awards in Boston, with the Prince and Princess of Wales in the audience.\n\n\n\n\nEllie Goulding, “Still Falling for You,” The Earthshot Prize 2022. Video: BBC\n\n\n\n\n\n2026 Best Microworkshop/ToolTalk, Pan American Vocology Association, for the AI Supported Voice Studio Portal\n2023 NATS Voice Pedagogy Award, National Association of Teachers of Singing\n2022 to 2023 Faculty Development Grant for Inclusive Teaching and Learning, Berklee\n2021 Board of Trustees Award, New England Conservatory\n2013 Presser Scholar, San Diego State University\n\n\n\n\n\nMM, Vocal Pedagogy, New England Conservatory (2019)\nBM, Vocal Performance, San Diego State University (2014)"
+  },
+  {
+    "objectID": "about.html#san-diego",
+    "href": "about.html#san-diego",
+    "title": "About",
+    "section": "",
+    "text": "I studied vocal performance at San Diego State University and began teaching voice privately in 2012. While I was still a student, I co-founded the Folklore Guild, a choir that sang video game and film music, and I spent three years as Director of Development and Education for Bach Collegium San Diego. There I helped double the ensemble’s annual budget and used grants from the National Endowment for the Arts and the City of San Diego to start open rehearsals and lectures for students in Title I schools. It was my first time building an education program from the ground up."
+  },
+  {
+    "objectID": "about.html#new-england-conservatory",
+    "href": "about.html#new-england-conservatory",
+    "title": "About",
+    "section": "",
+    "text": "I moved to Boston for a master’s degree in vocal pedagogy at New England Conservatory and stayed on in two jobs at once: Assistant Vocal Pedagogy Director on the faculty, and manager of the Voice and Sound Analysis Lab. Since 2019 I have been on the faculty of the Acoustic Vocal Pedagogy Workshop, now run by the Embodied Music Lab, and have helped organize it. When the pandemic moved lessons online, Ian Howell and I ran SoundJack Bootcamp to help musicians rehearse together over the internet and published a comparison of audio quality on the major video-call platforms.\nAt the same time I worked as a research assistant at the Massachusetts General Hospital (MGH) Voice Center on a study of ambulatory voice monitoring."
+  },
+  {
+    "objectID": "about.html#boston-conservatory-at-berklee",
+    "href": "about.html#boston-conservatory-at-berklee",
+    "title": "About",
+    "section": "",
+    "text": "Boston Conservatory hired me in 2022 to lead the research side of two graduate degrees in voice teaching and singing, and to help students build their skills in scholarly reading, research, and publication. Since then we have built a voice science lab and a thesis sequence in quantitative and mixed methods with institutional review board (IRB) review for every study. I have also strengthened the conservatory’s existing partnership with the MGH Voice Center, which gives incoming voice students a screening and follow-up care. Student theses are collected in a public research archive.\nIn 2024 I took on leadership of the whole area, which includes the MM in Vocal Pedagogy and the MFA in Musical Theater Vocal Pedagogy. Alumni of the program have given 35 conference presentations since 2022, 19 of them at the Voice Foundation’s annual symposium, and graduates now teach at Oberlin, Brown, Catholic University of America, Oklahoma State, and UMass Amherst. I also direct the Vocal Pedagogy Professional Workshop for working voice teachers. In 2023 the National Association of Teachers of Singing (NATS) gave me its Voice Pedagogy Award."
+  },
+  {
+    "objectID": "about.html#how-i-teach",
+    "href": "about.html#how-i-teach",
+    "title": "About",
+    "section": "",
+    "text": "Photo: Simon Simard for Berklee\nI call my approach scientific method informed voice teaching. In a lesson, I listen and watch, the student tells me what they feel, and we decide together what to try next. We keep what turns out to be observable, measurable, and repeatable. Over time I want students to be able to run these experiments on their own.\nI tell my graduate students that research is a form of artistic expression, and that the best questions in voice research come from what teachers notice in their own studios. I talked about all of this on the VocalFri Podcast in 2025:"
+  },
+  {
+    "objectID": "about.html#what-im-building-now",
+    "href": "about.html#what-im-building-now",
+    "title": "About",
+    "section": "",
+    "text": "In 2024 I started building the AI Supported Voice Studio Portal, which I now use with my private students. After each lesson it produces a debrief and a practice plan, and students use it to track their progress between lessons. In 2026 it won the Pan American Vocology Association’s Best Microworkshop/ToolTalk award. More about the portal.\nI want good voice pedagogy training to be available to teachers who cannot move to a conservatory city or pay conservatory tuition, and most of what I build now is meant for them."
+  },
+  {
+    "objectID": "about.html#presentations-and-publications",
+    "href": "about.html#presentations-and-publications",
+    "title": "About",
+    "section": "",
+    "text": "I present regularly at the Voice Foundation Symposium, the Pan American Vocology Association, and the National Association of Teachers of Singing, usually with the graduate students whose research I supervise. Recent work includes:\n\nGautereaux, Kayla, with Ian Howell and Cary Lee. “AI and the Voice Studio: Opportunity, Ethics, and Expertise.” NATS Chat webinar, October 2026.\nGautereaux, Kayla. “AI Supported Voice Studio Portal.” Pan American Vocology Association Symposium, 2026. Winner, Best Microworkshop/ToolTalk.\nHowell, Ian, and Kayla Gautereaux. “Special Acts of Breathing: Visualizing Respiration with RespTrack.” NATS National Conference, July 2026.\nMeikle, Brianna, Kayla Gautereaux, et al. “Performance Anxiety and Co-Regulation in the Vocal Audition.” Voice Foundation Symposium, May 2026.\n\nFull list of presentations and publications →"
+  },
+  {
+    "objectID": "about.html#performing",
+    "href": "about.html#performing",
+    "title": "About",
+    "section": "",
+    "text": "I perform as a soloist and in choirs, and I sang backup for Ellie Goulding’s “Still Falling for You” at the 2022 Earthshot Prize Awards in Boston, with the Prince and Princess of Wales in the audience.\n\n\n\n\nEllie Goulding, “Still Falling for You,” The Earthshot Prize 2022. Video: BBC"
+  },
+  {
+    "objectID": "about.html#awards",
+    "href": "about.html#awards",
+    "title": "About",
+    "section": "",
+    "text": "2026 Best Microworkshop/ToolTalk, Pan American Vocology Association, for the AI Supported Voice Studio Portal\n2023 NATS Voice Pedagogy Award, National Association of Teachers of Singing\n2022 to 2023 Faculty Development Grant for Inclusive Teaching and Learning, Berklee\n2021 Board of Trustees Award, New England Conservatory\n2013 Presser Scholar, San Diego State University"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "",
+    "text": "MM, Vocal Pedagogy, New England Conservatory (2019)\nBM, Vocal Performance, San Diego State University (2014)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Kayla Gautereaux",
+    "section": "",
+    "text": "I teach voice and vocal pedagogy at Boston Conservatory at Berklee, where I lead the graduate vocal pedagogy area. I also build AI tools that support teaching and learning.\n\nResearch Archive Studio Portal demo\n\n\n Photo: Simon Simard for Berklee"
+  },
+  {
+    "objectID": "index.html#singing-for-health",
+    "href": "index.html#singing-for-health",
+    "title": "Kayla Gautereaux",
+    "section": "Singing for health",
+    "text": "Singing for health\nIn this episode of Berklee Office Hours, I talk about what singing does for our health and how to keep a voice healthy over a lifetime of use.\nMore about me →"
+  },
+  {
+    "objectID": "index.html#research",
+    "href": "index.html#research",
+    "title": "Kayla Gautereaux",
+    "section": "Research",
+    "text": "Research\nSince 2022 I have led research in Boston Conservatory’s graduate vocal pedagogy degrees. Our students’ theses are collected in a public archive of 33 studies, searchable by topic, with data you can explore yourself.\nGo to the research archive →"
+  },
+  {
+    "objectID": "index.html#teaching",
+    "href": "index.html#teaching",
+    "title": "Kayla Gautereaux",
+    "section": "Teaching",
+    "text": "Teaching\nI lead the MM in Vocal Pedagogy and the MFA in Musical Theater Vocal Pedagogy, and I direct the Vocal Pedagogy Professional Workshop for working voice teachers.\nTeaching →"
+  },
+  {
+    "objectID": "index.html#ai-and-learning",
+    "href": "index.html#ai-and-learning",
+    "title": "Kayla Gautereaux",
+    "section": "AI and learning",
+    "text": "AI and learning\nI use AI as a partner in teaching and learning, not as a replacement for either. My private voice students use the AI Supported Voice Studio Portal, which I built, and it won the Pan American Vocology Association’s 2026 Best Microworkshop/ToolTalk award.\nAI and learning → Try the demo → Private studio →"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Photo: Simon Simard for Berklee\n\n\nI lead two graduate degrees.\n\n\nA 36-credit degree for singers who want to learn the science and craft of voice teaching, with pedagogy training in classical, musical theater, and contemporary styles.\n\n\n\nA 60-credit terminal degree for teachers who specialize in musical theater. It includes an original thesis.\n\n\n\n\nResearch is built into both degrees. Since 2022 we have set up:\n\na voice science lab with acoustic analysis in Praat, heart rate and respiration monitoring, and Python data pipelines\na thesis sequence in quantitative and mixed methods, with review by an institutional review board (IRB) for every study\na public research archive of 33 graduate studies\n\nThe program also has a clinical partnership with the MGH Voice Center at Massachusetts General Hospital that predates my time here, and I have worked to strengthen it. Incoming voice students receive a voice screening, and those with findings receive physician follow-up.\nMFA students design and carry out their own studies. Since 2022, alumni of the program have given 35 conference presentations, including 19 at the Voice Foundation, 7 at the Pan American Vocology Association, and 6 at the National Association of Teachers of Singing (NATS). Graduates teach at Oberlin Conservatory, Catholic University of America, Oklahoma State University, UMass Amherst, Brown University, and other schools.\n\n\n\n\n Photo: Simon Simard for Berklee\nI direct the Vocal Pedagogy Professional Workshop (VPPW), a four-day summer workshop for voice teachers, with faculty from several institutions. Since 2019 I have also been on the faculty of the Acoustic Vocal Pedagogy Workshop, run by the Embodied Music Lab, and have helped organize it.\n\n\n\n Photo: Simon Simard for Berklee\nI teach voice lessons and coach voice teachers privately, in person in the Boston area or online.\nVisit the studio site"
+  },
+  {
+    "objectID": "teaching.html#graduate-vocal-pedagogy-at-boston-conservatory-at-berklee",
+    "href": "teaching.html#graduate-vocal-pedagogy-at-boston-conservatory-at-berklee",
+    "title": "Teaching",
+    "section": "",
+    "text": "I lead two graduate degrees.\n\n\nA 36-credit degree for singers who want to learn the science and craft of voice teaching, with pedagogy training in classical, musical theater, and contemporary styles.\n\n\n\nA 60-credit terminal degree for teachers who specialize in musical theater. It includes an original thesis."
+  },
+  {
+    "objectID": "teaching.html#research-in-the-program",
+    "href": "teaching.html#research-in-the-program",
+    "title": "Teaching",
+    "section": "",
+    "text": "Research is built into both degrees. Since 2022 we have set up:\n\na voice science lab with acoustic analysis in Praat, heart rate and respiration monitoring, and Python data pipelines\na thesis sequence in quantitative and mixed methods, with review by an institutional review board (IRB) for every study\na public research archive of 33 graduate studies\n\nThe program also has a clinical partnership with the MGH Voice Center at Massachusetts General Hospital that predates my time here, and I have worked to strengthen it. Incoming voice students receive a voice screening, and those with findings receive physician follow-up.\nMFA students design and carry out their own studies. Since 2022, alumni of the program have given 35 conference presentations, including 19 at the Voice Foundation, 7 at the Pan American Vocology Association, and 6 at the National Association of Teachers of Singing (NATS). Graduates teach at Oberlin Conservatory, Catholic University of America, Oklahoma State University, UMass Amherst, Brown University, and other schools."
+  },
+  {
+    "objectID": "teaching.html#workshops-for-working-teachers",
+    "href": "teaching.html#workshops-for-working-teachers",
+    "title": "Teaching",
+    "section": "",
+    "text": "Photo: Simon Simard for Berklee\nI direct the Vocal Pedagogy Professional Workshop (VPPW), a four-day summer workshop for voice teachers, with faculty from several institutions. Since 2019 I have also been on the faculty of the Acoustic Vocal Pedagogy Workshop, run by the Embodied Music Lab, and have helped organize it."
+  },
+  {
+    "objectID": "teaching.html#private-studio",
+    "href": "teaching.html#private-studio",
+    "title": "Teaching",
+    "section": "",
+    "text": "Photo: Simon Simard for Berklee\nI teach voice lessons and coach voice teachers privately, in person in the Boston area or online.\nVisit the studio site"
+  },
+  {
+    "objectID": "speaking.html",
+    "href": "speaking.html",
+    "title": "Presentations & Media",
+    "section": "",
+    "text": "I give conference presentations, workshops, guest lectures, and podcast interviews on voice pedagogy, research in conservatory programs, and AI tools for learning.\n\n\n\n\n\n\nBerklee Office Hours: Singing for Health and Healthy Singing\n\n\n\n\n\n\n\nMost of my conference work is co-authored with the graduate students whose research I supervise.\n\n\n\nGautereaux, Kayla, with Ian Howell and Cary Lee. “AI and the Voice Studio: Opportunity, Ethics, and Expertise.” NATS Chat, the National Association of Teachers of Singing webinar series, October 2026.\n“The Role of Artificial Intelligence in Vocology Research, Voice Pedagogy, Clinical Practice, and Scholarship.” Panel, Pan American Vocology Association Symposium, October 2026.\nGautereaux, Kayla. “AI Supported Voice Studio Portal.” Microworkshop/ToolTalk, Pan American Vocology Association Symposium, 2026. Winner, Best Microworkshop/ToolTalk.\nGautereaux, Kayla, and Emily Siar. “Evaluating the Art of Teaching Voice.” Berklee VoiceCast, episode 5, July 2026.\nElosúa Serna, Mariana, and Brian Manternach. “The Independent Teacher: Culturally Responsive Repertoire Categories in the Voice Studio.” Journal of Singing 82, no. 3 (January/February 2026): 345–350. Builds on Elosúa Serna’s 2024 MFA thesis at Boston Conservatory at Berklee, supervised by Kayla Gautereaux.\nHowell, Ian, and Kayla Gautereaux. “Special Acts of Breathing: Visualizing Respiration with RespTrack.” NATS National Conference, July 2026.\nDa Silva, Jessye, Kayla Gautereaux, and Rachel Klippel. “Listening Beyond the Binary: Gender Perception in the MT Voice Studio.” NATS National Conference, July 2026.\nNissimoff, Michal, Kayla Gautereaux, et al. “Group Free Improvisation and Performance Anxiety.” Voice Foundation Symposium, Philadelphia, PA, May 2026.\nPay, Morgan, Kayla Gautereaux, et al. “Animal Mimicry in the Voice Studio.” Voice Foundation Symposium, Philadelphia, PA, May 2026.\nMeikle, Brianna, Kayla Gautereaux, et al. “Performance Anxiety and Co-Regulation in the Vocal Audition.” Voice Foundation Symposium, Philadelphia, PA, May 2026.\nFieland, Marissa, Jennifer Burks, Kayla Gautereaux, and Ian Howell. “Respiratory Coordination and Acoustic Vocal Quality of Two Opera Singers Through the 2nd and 3rd Trimesters of Pregnancy.” Poster, Voice Foundation Symposium, Philadelphia, PA, May 2026.\n\n\n\n\n\nGautereaux, Kayla. “Scaling Vocal Exercises: Maximizing Student Learning Through Adaptive Pedagogy.” NATS New England Regional Conference, 2025.\nNicoletti, Joseph, Kayla Gautereaux, and Joshua Gilbert. “Perceived Vocal Effort of a Singer with a Lower-Limb Disability.” Poster, Voice Foundation Symposium, Philadelphia, PA, May 2025.\nBanton, Jayson, Kayla Gautereaux, and Joshua Gilbert. “The Effects of Cross-Training Experience on Voice Quality.” Voice Foundation Symposium, Philadelphia, PA, May 2025.\nFieland, Marissa, Jennifer Burks, Kayla Gautereaux, and Ian Howell. “Respiratory Coordination and Acoustic Vocal Quality of Two Opera Singers During Pregnancy.” Voice Foundation Symposium, Philadelphia, PA, May 2025.\nElosúa Serna, Mariana, Kayla Gautereaux, Joshua Gilbert, and Megan Stahl. “Culturally Aware Repertoire for Student Engagement in the Voice Studio.” Voice Foundation Symposium, Philadelphia, PA, May 2025.\nKlippel, Rachel, Kayla Gautereaux, Joshua Gilbert, and Megan Stahl. “Self and Listener Perceived Gender Perception of the Musical Theatre Singing Voice.” Voice Foundation Symposium, Philadelphia, PA, May 2025.\n\n\n\n\n\nGautereaux, Kayla, Nicholas Perna, Mark Tempesta, and Ian Howell. “The Future of Interdisciplinary and Practitioner-Led Research Mentorship in Graduate Voice Pedagogy Programs.” Special topics session, Pan American Vocology Association Symposium, 2024.\nPerona, Anissa, Megan Stahl, Kayla Gautereaux, and Joshua Gilbert. “Assigned Voice Type and Self-Esteem in First-Year Collegiate Treble Singers.” Poster, Voice Foundation Symposium, Philadelphia, PA, May 2024.\nBell, Lyndsee, Joshua Gilbert, Kayla Gautereaux, and Megan Stahl. “The Effects of Experienced Ease of a Singer from Pelvic Floor-Related Cues.” Poster, Voice Foundation Symposium, Philadelphia, PA, May 2024.\nHansen, Violet Joy, Kayla Gautereaux, Joshua Glasner, and Megan Stahl. “Measuring the Differences Between Opera and Musical Theatre Styles Through Spectral Moment Analysis.” Voice Foundation Symposium, Philadelphia, PA, May 2024.\nStratton, Merced, Jennifer Burks, Kayla Gautereaux, Joshua Gilbert, and Megan Stahl. “Impact of Cell Phone Pick-Ups on Memorization in Singing.” Voice Foundation Symposium, Philadelphia, PA, May 2024.\nElosúa Serna, Mariana, Megan Stahl, Kayla Gautereaux, and Joshua Gilbert. “Cultural Responsivity in the Vocal Studio.” Voice Foundation Symposium, Philadelphia, PA, May 2024.\n\n\n\n\n\nGautereaux, Kayla, and Lauren Guthridge. “Effects of Bra Band Tension on Respiration for Singing.” Voice Foundation Symposium: Care of the Professional Voice, Philadelphia, PA, May 2023.\nGuthridge, Lauren, and Kayla Gautereaux. “The Impacts of Cognitive Load on Acoustic Qualities of the Singing Voice: A Perceptual Study.” Voice Foundation Symposium: Care of the Professional Voice, Philadelphia, PA, May 2023.\nBall, April, Kayla Gautereaux, Joshua Gilbert, and Lauren Guthridge. “The Effects of Empowered Postural Cues on Respiration for Singing.” Poster, Voice Foundation Symposium, Philadelphia, PA, May 2023.\nLyons, Alexander, Lauren Guthridge, Joshua Gilbert, and Kayla Gautereaux. “Influence of Clarinet Playing on the Voice.” Poster, Voice Foundation Symposium, Philadelphia, PA, May 2023.\nChan, Yu Hin Bryan, Kayla Gautereaux, Joshua Gilbert, and Lauren Guthridge. “The Impact of Emotional Valence and Activity on the Use of Vibrato in CCM Singing.” Poster, Voice Foundation Symposium, Philadelphia, PA, May 2023.\nGlasner, Joshua, Joseph Hitchcock, and Kayla Gautereaux. “Spectral Moment Analysis of a Synthesized Singing Voice.” Voice Foundation Symposium, Philadelphia, PA, May 2023.\nManoj, Elza Ann, Kayla Gautereaux, and Joshua Gilbert. “Effects of Music Preference on Practice Time and Memory Retention.” Voice Foundation Symposium, Philadelphia, PA, May 2023.\n\n\n\n\n\nShi, Xiao, Kayla Gautereaux, and Ian Howell. “A Comparative Study of Wavelet Analysis and Short-Time Fourier Transform on the Singing Voice.” Poster, Voice Foundation Symposium, Philadelphia, PA, May 2022.\nTempesta, Mark, Kayla Gautereaux, and Ian Howell. “Correlation of Physical Onset Type to Speed of Per Period Timbral Evolution.” Poster, Voice Foundation Symposium, Philadelphia, PA, May 2022.\nGuthridge, Lauren, Kayla Gautereaux, Joshua Gilbert, and Ian Howell. “Attention and Distraction in Solo Voice Lessons.” Voice Foundation Symposium, Philadelphia, PA, May 2022.\nBurks, Jennifer, Ian Howell, and Kayla Gautereaux. “Speaking Fundamental Frequency and Voice Classification for Sopranos and Mezzo-Sopranos.” Pan American Vocology Association Symposium, Salt Lake City, UT, 2022.\n\n\n\n\n\nHowell, Ian, and Kayla Gautereaux. NEC 2021 SoundJack Bootcamp. New England Conservatory, 2021.\nAsano, Chihiro, Ian Howell, and Kayla Gautereaux. “Japanese Female Voice in Anime.” Poster, Pan American Vocology Association Virtual Symposium, 2021.\nGuthridge, Lauren, Ian Howell, and Kayla Gautereaux. “Ocular Measurements and Locus of Attention in Solo Voice Instruction.” Poster, Pan American Vocology Association Virtual Symposium, 2021.\n\n\n\n\n\nHowell, Ian, Kayla Gautereaux, Joshua Glasner, Nicholas Perna, Chadley Ballantyne, and Theodora Nestorova. Preliminary Report: Comparing the Audio Quality of Classical Music Lessons Over Zoom, Microsoft Teams, VoiceLessonsApp, and AppleFaceTime. March 25, 2020.\nGautereaux, Kayla, Jason Trees, and Ian Howell. “Peering Inside the Period: Wavelet Decomposition as an Alternative to the Fourier Transform.” Poster, NATS National Virtual Conference, June 2020.\n\n\n\n\n\nI have been a guest six times.\n\n“AI and the Voice Practitioner” with Ian Howell and Theodora Nestorova (April 17, 2026)\n“Scientific Method Informed Voice Teaching” (October 17, 2025)\n“Treble Extremes!” (December 3, 2021)\n“Teaching Online 2.0: The Future is Now” (January 8, 2021)\n“Treble Middle Voice” (November 21, 2020)\n“Viral Video Voice Conferencing Platforms” (April 10, 2020)\n\n\n\n\n\nScientific method informed voice teaching\nAI tools for learning\nBuilding a research program in a conservatory\nNeurodivergent-inclusive assessment\nVoice health and clinical partnerships\nTeaching across classical, musical theater, and contemporary styles\n\nAsk about a talk or workshop"
+  },
+  {
+    "objectID": "speaking.html#watch-and-listen",
+    "href": "speaking.html#watch-and-listen",
+    "title": "Presentations & Media",
+    "section": "",
+    "text": "Berklee Office Hours: Singing for Health and Healthy Singing"
+  },
+  {
+    "objectID": "speaking.html#presentations-and-publications",
+    "href": "speaking.html#presentations-and-publications",
+    "title": "Presentations & Media",
+    "section": "",
+    "text": "Most of my conference work is co-authored with the graduate students whose research I supervise.\n\n\n\nGautereaux, Kayla, with Ian Howell and Cary Lee. “AI and the Voice Studio: Opportunity, Ethics, and Expertise.” NATS Chat, the National Association of Teachers of Singing webinar series, October 2026.\n“The Role of Artificial Intelligence in Vocology Research, Voice Pedagogy, Clinical Practice, and Scholarship.” Panel, Pan American Vocology Association Symposium, October 2026.\nGautereaux, Kayla. “AI Supported Voice Studio Portal.” Microworkshop/ToolTalk, Pan American Vocology Association Symposium, 2026. Winner, Best Microworkshop/ToolTalk.\nGautereaux, Kayla, and Emily Siar. “Evaluating the Art of Teaching Voice.” Berklee VoiceCast, episode 5, July 2026.\nElosúa Serna, Mariana, and Brian Manternach. “The Independent Teacher: Culturally Responsive Repertoire Categories in the Voice Studio.” Journal of Singing 82, no. 3 (January/February 2026): 345–350. Builds on Elosúa Serna’s 2024 MFA thesis at Boston Conservatory at Berklee, supervised by Kayla Gautereaux.\nHowell, Ian, and Kayla Gautereaux. “Special Acts of Breathing: Visualizing Respiration with RespTrack.” NATS National Conference, July 2026.\nDa Silva, Jessye, Kayla Gautereaux, and Rachel Klippel. “Listening Beyond the Binary: Gender Perception in the MT Voice Studio.” NATS National Conference, July 2026.\nNissimoff, Michal, Kayla Gautereaux, et al. “Group Free Improvisation and Performance Anxiety.” Voice Foundation Symposium, Philadelphia, PA, May 2026.\nPay, Morgan, Kayla Gautereaux, et al. “Animal Mimicry in the Voice Studio.” Voice Foundation Symposium, Philadelphia, PA, May 2026.\nMeikle, Brianna, Kayla Gautereaux, et al. “Performance Anxiety and Co-Regulation in the Vocal Audition.” Voice Foundation Symposium, Philadelphia, PA, May 2026.\nFieland, Marissa, Jennifer Burks, Kayla Gautereaux, and Ian Howell. “Respiratory Coordination and Acoustic Vocal Quality of Two Opera Singers Through the 2nd and 3rd Trimesters of Pregnancy.” Poster, Voice Foundation Symposium, Philadelphia, PA, May 2026.\n\n\n\n\n\nGautereaux, Kayla. “Scaling Vocal Exercises: Maximizing Student Learning Through Adaptive Pedagogy.” NATS New England Regional Conference, 2025.\nNicoletti, Joseph, Kayla Gautereaux, and Joshua Gilbert. “Perceived Vocal Effort of a Singer with a Lower-Limb Disability.” Poster, Voice Foundation Symposium, Philadelphia, PA, May 2025.\nBanton, Jayson, Kayla Gautereaux, and Joshua Gilbert. “The Effects of Cross-Training Experience on Voice Quality.” Voice Foundation Symposium, Philadelphia, PA, May 2025.\nFieland, Marissa, Jennifer Burks, Kayla Gautereaux, and Ian Howell. “Respiratory Coordination and Acoustic Vocal Quality of Two Opera Singers During Pregnancy.” Voice Foundation Symposium, Philadelphia, PA, May 2025.\nElosúa Serna, Mariana, Kayla Gautereaux, Joshua Gilbert, and Megan Stahl. “Culturally Aware Repertoire for Student Engagement in the Voice Studio.” Voice Foundation Symposium, Philadelphia, PA, May 2025.\nKlippel, Rachel, Kayla Gautereaux, Joshua Gilbert, and Megan Stahl. “Self and Listener Perceived Gender Perception of the Musical Theatre Singing Voice.” Voice Foundation Symposium, Philadelphia, PA, May 2025.\n\n\n\n\n\nGautereaux, Kayla, Nicholas Perna, Mark Tempesta, and Ian Howell. “The Future of Interdisciplinary and Practitioner-Led Research Mentorship in Graduate Voice Pedagogy Programs.” Special topics session, Pan American Vocology Association Symposium, 2024.\nPerona, Anissa, Megan Stahl, Kayla Gautereaux, and Joshua Gilbert. “Assigned Voice Type and Self-Esteem in First-Year Collegiate Treble Singers.” Poster, Voice Foundation Symposium, Philadelphia, PA, May 2024.\nBell, Lyndsee, Joshua Gilbert, Kayla Gautereaux, and Megan Stahl. “The Effects of Experienced Ease of a Singer from Pelvic Floor-Related Cues.” Poster, Voice Foundation Symposium, Philadelphia, PA, May 2024.\nHansen, Violet Joy, Kayla Gautereaux, Joshua Glasner, and Megan Stahl. “Measuring the Differences Between Opera and Musical Theatre Styles Through Spectral Moment Analysis.” Voice Foundation Symposium, Philadelphia, PA, May 2024.\nStratton, Merced, Jennifer Burks, Kayla Gautereaux, Joshua Gilbert, and Megan Stahl. “Impact of Cell Phone Pick-Ups on Memorization in Singing.” Voice Foundation Symposium, Philadelphia, PA, May 2024.\nElosúa Serna, Mariana, Megan Stahl, Kayla Gautereaux, and Joshua Gilbert. “Cultural Responsivity in the Vocal Studio.” Voice Foundation Symposium, Philadelphia, PA, May 2024.\n\n\n\n\n\nGautereaux, Kayla, and Lauren Guthridge. “Effects of Bra Band Tension on Respiration for Singing.” Voice Foundation Symposium: Care of the Professional Voice, Philadelphia, PA, May 2023.\nGuthridge, Lauren, and Kayla Gautereaux. “The Impacts of Cognitive Load on Acoustic Qualities of the Singing Voice: A Perceptual Study.” Voice Foundation Symposium: Care of the Professional Voice, Philadelphia, PA, May 2023.\nBall, April, Kayla Gautereaux, Joshua Gilbert, and Lauren Guthridge. “The Effects of Empowered Postural Cues on Respiration for Singing.” Poster, Voice Foundation Symposium, Philadelphia, PA, May 2023.\nLyons, Alexander, Lauren Guthridge, Joshua Gilbert, and Kayla Gautereaux. “Influence of Clarinet Playing on the Voice.” Poster, Voice Foundation Symposium, Philadelphia, PA, May 2023.\nChan, Yu Hin Bryan, Kayla Gautereaux, Joshua Gilbert, and Lauren Guthridge. “The Impact of Emotional Valence and Activity on the Use of Vibrato in CCM Singing.” Poster, Voice Foundation Symposium, Philadelphia, PA, May 2023.\nGlasner, Joshua, Joseph Hitchcock, and Kayla Gautereaux. “Spectral Moment Analysis of a Synthesized Singing Voice.” Voice Foundation Symposium, Philadelphia, PA, May 2023.\nManoj, Elza Ann, Kayla Gautereaux, and Joshua Gilbert. “Effects of Music Preference on Practice Time and Memory Retention.” Voice Foundation Symposium, Philadelphia, PA, May 2023.\n\n\n\n\n\nShi, Xiao, Kayla Gautereaux, and Ian Howell. “A Comparative Study of Wavelet Analysis and Short-Time Fourier Transform on the Singing Voice.” Poster, Voice Foundation Symposium, Philadelphia, PA, May 2022.\nTempesta, Mark, Kayla Gautereaux, and Ian Howell. “Correlation of Physical Onset Type to Speed of Per Period Timbral Evolution.” Poster, Voice Foundation Symposium, Philadelphia, PA, May 2022.\nGuthridge, Lauren, Kayla Gautereaux, Joshua Gilbert, and Ian Howell. “Attention and Distraction in Solo Voice Lessons.” Voice Foundation Symposium, Philadelphia, PA, May 2022.\nBurks, Jennifer, Ian Howell, and Kayla Gautereaux. “Speaking Fundamental Frequency and Voice Classification for Sopranos and Mezzo-Sopranos.” Pan American Vocology Association Symposium, Salt Lake City, UT, 2022.\n\n\n\n\n\nHowell, Ian, and Kayla Gautereaux. NEC 2021 SoundJack Bootcamp. New England Conservatory, 2021.\nAsano, Chihiro, Ian Howell, and Kayla Gautereaux. “Japanese Female Voice in Anime.” Poster, Pan American Vocology Association Virtual Symposium, 2021.\nGuthridge, Lauren, Ian Howell, and Kayla Gautereaux. “Ocular Measurements and Locus of Attention in Solo Voice Instruction.” Poster, Pan American Vocology Association Virtual Symposium, 2021.\n\n\n\n\n\nHowell, Ian, Kayla Gautereaux, Joshua Glasner, Nicholas Perna, Chadley Ballantyne, and Theodora Nestorova. Preliminary Report: Comparing the Audio Quality of Classical Music Lessons Over Zoom, Microsoft Teams, VoiceLessonsApp, and AppleFaceTime. March 25, 2020.\nGautereaux, Kayla, Jason Trees, and Ian Howell. “Peering Inside the Period: Wavelet Decomposition as an Alternative to the Fourier Transform.” Poster, NATS National Virtual Conference, June 2020."
+  },
+  {
+    "objectID": "speaking.html#vocalfri-podcast",
+    "href": "speaking.html#vocalfri-podcast",
+    "title": "Presentations & Media",
+    "section": "",
+    "text": "I have been a guest six times.\n\n“AI and the Voice Practitioner” with Ian Howell and Theodora Nestorova (April 17, 2026)\n“Scientific Method Informed Voice Teaching” (October 17, 2025)\n“Treble Extremes!” (December 3, 2021)\n“Teaching Online 2.0: The Future is Now” (January 8, 2021)\n“Treble Middle Voice” (November 21, 2020)\n“Viral Video Voice Conferencing Platforms” (April 10, 2020)"
+  },
+  {
+    "objectID": "speaking.html#topics",
+    "href": "speaking.html#topics",
+    "title": "Presentations & Media",
+    "section": "",
+    "text": "Scientific method informed voice teaching\nAI tools for learning\nBuilding a research program in a conservatory\nNeurodivergent-inclusive assessment\nVoice health and clinical partnerships\nTeaching across classical, musical theater, and contemporary styles\n\nAsk about a talk or workshop"
+  }
+]
