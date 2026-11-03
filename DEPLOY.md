@@ -1,6 +1,6 @@
 # Launching kaylagautereaux.com
 
-> **Status (2026-11-02, evening)**: Published at github.com/kgautereaux/kaylagautereaux.com and attached to kaylagautereaux.com. GoDaddy DNS switched by Claude in Kayla's Chrome: four `@` A records now 185.199.108-111.153, `www` CNAME now kgautereaux.github.io. MX, TXT, research and studio records untouched. Remaining: wait for `www` to propagate and GitHub to issue the HTTPS certificate, then tick "Enforce HTTPS" (Settings → Pages), check all four addresses, then cancel Squarespace.
+> **Status (2026-11-02, night): LIVE.** https://kaylagautereaux.com serves the new site from GitHub Pages with an approved certificate (kaylagautereaux.com and www), and HTTPS is enforced. www and http both redirect to https://kaylagautereaux.com. research. and studio. load as before; email records untouched. Remaining for Kayla: export anything wanted from Squarespace, then cancel it. Note: if the certificate ever stalls after DNS changes, re-saving the custom domain in Settings → Pages makes GitHub check again.
 
 ## Preview locally
 
