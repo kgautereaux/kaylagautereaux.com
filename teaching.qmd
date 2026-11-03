@@ -8,35 +8,40 @@ description: "Kayla Gautereaux leads the MM in Vocal Pedagogy and MFA in Musical
 ![](images/lab-breathing.jpg){.lab-photo fig-alt="Kayla Gautereaux and a student wearing respiration bands, hands on chest and abdomen, in front of a spectrogram display"}
 [Photo: Simon Simard for Berklee]{.photo-credit}
 
-## Graduate vocal pedagogy at Boston Conservatory at Berklee
+I lead two graduate degrees at Boston Conservatory at Berklee. The MM in Vocal Pedagogy is a 36-credit degree for singers who want to learn the science and craft of voice teaching, with pedagogy training in classical, musical theater, and contemporary styles. The MFA in Musical Theater Vocal Pedagogy is a 60-credit terminal degree for teachers who specialize in musical theater, and it includes an original thesis.
 
-I lead two graduate degrees.
+## How students move through the program
 
-### MM in Vocal Pedagogy
+### Arriving
 
-A 36-credit degree for singers who want to learn the science and craft of voice teaching, with pedagogy training in classical, musical theater, and contemporary styles.
+Incoming voice students receive a voice screening at the MGH Voice Center at Massachusetts General Hospital, and those with findings receive physician follow-up. The partnership with MGH predates my time here, and I have worked to strengthen it.
 
-### MFA in Musical Theater Vocal Pedagogy
+### Every week
 
-A 60-credit terminal degree for teachers who specialize in musical theater. It includes an original thesis.
+![](images/vppw-workshop.jpg){.lab-photo fig-alt="Kayla Gautereaux teaching a group while a singer holds an expanding sphere toy used to show breathing"}
+[Photo: Simon Simard for Berklee]{.photo-credit}
 
-## Research in the program
+The whole cohort meets each week in the Vocal Pedagogy Colloquium, which I created and co-teach with Emily Siar. Students bring video of their own teaching for the group to discuss, teach live in front of their classmates, and hear from guest teachers. Both degrees now require it.
 
-Research is built into both degrees. Since 2022 we have set up:
+### The teaching exam
 
-- a voice science lab with acoustic analysis in Praat, heart rate and respiration monitoring, and Python data pipelines
-- a thesis sequence in quantitative and mixed methods, with review by an institutional review board (IRB) for every study
-- a public [research archive](https://research.kaylagautereaux.com) of 33 graduate studies
+At the end of the spring, students teach a fifteen-minute lesson and then talk through their choices with a panel of two faculty members. Emily Siar and I developed the rubric for this exam, and we talked about it on the [Berklee VoiceCast](https://remix.berklee.edu/voicecast) in July 2026.
 
-The program also has a clinical partnership with the MGH Voice Center at Massachusetts General Hospital that predates my time here, and I have worked to strengthen it. Incoming voice students receive a voice screening, and those with findings receive physician follow-up.
+### Research
 
-MFA students design and carry out their own studies. Since 2022, alumni of the program have given 35 conference presentations, including 19 at the Voice Foundation, 7 at the Pan American Vocology Association, and 6 at the National Association of Teachers of Singing (NATS). Graduates teach at Oberlin Conservatory, Catholic University of America, Oklahoma State University, UMass Amherst, Brown University, and other schools.
+![](images/card-research.jpg){.lab-photo .screenshot-frame fig-alt="The research archive homepage, showing a network of research topics"}
+
+MFA students spend three semesters on an original thesis, from the first question through data collection, analysis, and defense. They work in our voice science lab, which has acoustic analysis in Praat, heart rate and respiration monitoring, and Python data pipelines, and every study goes through institutional review board (IRB) review. Since 2022, alumni of the program have given 35 conference presentations, including 19 at the Voice Foundation, 7 at the Pan American Vocology Association, and 6 at the National Association of Teachers of Singing (NATS). Their theses are collected in a public [research archive](https://research.kaylagautereaux.com).
+
+### After graduation
+
+Graduates teach at Oberlin Conservatory, Catholic University of America, Oklahoma State University, UMass Amherst, Brown University, and other schools.
 
 <!-- Outcome stats from March 2026 (42 graduates, Classes of 2022 to 2025; 85% teaching; 65% at universities). Confirm current figures before restoring. -->
 
 ## Workshops for working teachers
 
-![](images/vppw-workshop.jpg){.lab-photo fig-alt="Kayla Gautereaux teaching at the Vocal Pedagogy Professional Workshop while a singer holds an expanding sphere toy used to show breathing"}
+![](images/vppw-group.jpg){.lab-photo fig-alt="Kayla Gautereaux at the piano leading a group session"}
 [Photo: Simon Simard for Berklee]{.photo-credit}
 
 I direct the Vocal Pedagogy Professional Workshop (VPPW), a four-day summer workshop for voice teachers, with faculty from several institutions. Since 2019 I have also been on the faculty of the Acoustic Vocal Pedagogy Workshop, run by the Embodied Music Lab, and have helped organize it.

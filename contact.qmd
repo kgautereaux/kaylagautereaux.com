@@ -5,6 +5,8 @@ description: "Contact Kayla Gautereaux about speaking, consulting, research coll
 
 ::: {.content-section}
 
+![](images/about-accent.jpg){.portrait fig-alt="Kayla Gautereaux smiling, in a plum dress against a dark backdrop"}
+
 **Kayla Gautereaux**\
 Boston area
 

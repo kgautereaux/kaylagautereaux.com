@@ -22,7 +22,9 @@ project:
 website:
   title: "Kayla Gautereaux"
   description: "Kayla Gautereaux teaches voice and vocal pedagogy at Boston Conservatory at Berklee, where she leads the graduate vocal pedagogy area."
-  site-url: https://kaylagautereaux.com
+  # Review address until DNS moves from Squarespace; switch back to
+  # https://kaylagautereaux.com when attaching the domain (see DEPLOY.md).
+  site-url: https://kgautereaux.github.io/kaylagautereaux.com
   favicon: favicon.svg
   search: false
   image: images/og-card.jpg

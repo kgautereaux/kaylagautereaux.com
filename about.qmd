@@ -1,6 +1,6 @@
 ---
 title: "About"
-description: "Kayla Gautereaux is a mezzo-soprano and voice teacher who leads the graduate vocal pedagogy area at Boston Conservatory at Berklee, where she built a research program inside two arts degrees."
+description: "Kayla Gautereaux is a mezzo-soprano and voice teacher who leads the graduate vocal pedagogy area at Boston Conservatory at Berklee, where she built a research program inside two graduate degrees in voice teaching and singing."
 ---
 
 ::: {.content-section}
@@ -11,8 +11,6 @@ I'm a mezzo-soprano, voice teacher, scholar, and program leader. At [Boston Cons
 
 ## San Diego
 
-I studied vocal performance at San Diego State University and began teaching voice privately in 2012. While I was still a student, I co-founded the Folklore Guild, a choir that sang video game and film music, and I spent three years as Director of Development and Education for Bach Collegium San Diego. There I helped double the ensemble's annual budget and used grants from the National Endowment for the Arts and the City of San Diego to start open rehearsals and lectures for students in Title I schools. It was my first time building an education program from the ground up.
-
 ::: {.singing-gallery}
 ![](images/singing-soloist.jpg){fig-alt="Kayla Gautereaux singing as mezzo-soprano soloist with orchestra and choir"}
 ![](images/singing-costume.jpg){.focus-face fig-alt="Kayla Gautereaux as the Mother in Menotti's Amahl and the Night Visitors, singing with arms outstretched"}
@@ -20,34 +18,39 @@ I studied vocal performance at San Diego State University and began teaching voi
 ![](images/singing-recital.jpg){fig-alt="Kayla Gautereaux singing a recital beside a grand piano"}
 :::
 
+I trained as a singer at San Diego State University, where I studied vocal performance, and I started teaching voice privately in 2012. While I was still a student, I co-founded the Folklore Guild, a choir that sang music from video games and films. I also spent three years as Director of Development and Education for Bach Collegium San Diego, a professional early music ensemble. I helped double its annual budget, and grants from the National Endowment for the Arts and the City of San Diego paid for open rehearsals and lectures for students in Title I schools.
+
 <!-- TODO: Embed a singing recording here when Kayla picks one. -->
 
 ## New England Conservatory
 
-I moved to Boston for a master's degree in vocal pedagogy at New England Conservatory and stayed on in two jobs at once: Assistant Vocal Pedagogy Director on the faculty, and manager of the Voice and Sound Analysis Lab. Since 2019 I have been on the faculty of the Acoustic Vocal Pedagogy Workshop, now run by the Embodied Music Lab, and have helped organize it. When the pandemic moved lessons online, Ian Howell and I ran SoundJack Bootcamp to help musicians rehearse together over the internet and published a comparison of audio quality on the major video-call platforms.
-
-At the same time I worked as a research assistant at the Massachusetts General Hospital (MGH) Voice Center on a study of ambulatory voice monitoring.
+I came to Boston for a master's degree in vocal pedagogy at New England Conservatory and stayed on after graduating, as Assistant Vocal Pedagogy Director on the faculty and as manager of the Voice and Sound Analysis Lab. In 2019 I joined the faculty of the Acoustic Vocal Pedagogy Workshop, now run by the Embodied Music Lab, and I have helped organize it since. When the pandemic moved lessons online, Ian Howell and I ran SoundJack Bootcamp to help musicians rehearse together over the internet, and we published a comparison of audio quality on the main video-call platforms. During the same years I worked as a research assistant at the Massachusetts General Hospital (MGH) Voice Center on a study of ambulatory voice monitoring.
 
 ## Boston Conservatory at Berklee
 
-Boston Conservatory hired me in 2022 to lead the research side of two graduate degrees in voice teaching and singing, and to help students build their skills in scholarly reading, research, and publication. Since then we have built a voice science lab and a thesis sequence in quantitative and mixed methods with institutional review board (IRB) review for every study. I have also strengthened the conservatory's existing partnership with the MGH Voice Center, which gives incoming voice students a screening and follow-up care. Student theses are collected in a public [research archive](https://research.kaylagautereaux.com).
+![](images/lab-spectrogram.jpg){.lab-photo fig-alt="Kayla Gautereaux pointing to a spectrogram on a screen while graduate students raise their hands"}
+[Photo: Simon Simard for Berklee]{.photo-credit}
 
-In 2024 I took on leadership of the whole area, which includes the MM in Vocal Pedagogy and the MFA in Musical Theater Vocal Pedagogy. Alumni of the program have given 35 conference presentations since 2022, 19 of them at the Voice Foundation's annual symposium, and graduates now teach at Oberlin, Brown, Catholic University of America, Oklahoma State, and UMass Amherst. I also direct the Vocal Pedagogy Professional Workshop for working voice teachers. In 2023 the National Association of Teachers of Singing (NATS) gave me its Voice Pedagogy Award.
+Boston Conservatory hired me in 2022 to lead the research side of its graduate degrees in voice teaching and singing. My job was to help students learn to read research closely, design studies of their own, and publish what they find. Since then we have built a voice science lab and a thesis sequence in quantitative and mixed methods, with institutional review board (IRB) review for every study. I have also strengthened the conservatory's existing partnership with the MGH Voice Center, which gives incoming voice students a screening and follow-up care. Our students' theses are collected in a public [research archive](https://research.kaylagautereaux.com).
+
+In 2024 I took on leadership of the whole area, including the MM in Vocal Pedagogy and the MFA in Musical Theater Vocal Pedagogy. Since 2022 our alumni have given 35 conference presentations, 19 of them at the Voice Foundation's annual symposium, and graduates now teach at Oberlin, Brown, Catholic University of America, Oklahoma State, and UMass Amherst. I also direct the Vocal Pedagogy Professional Workshop, a summer program for working voice teachers. In 2023 the National Association of Teachers of Singing (NATS) gave me its Voice Pedagogy Award.
 
 ## How I teach
 
 ![](images/vppw-piano.jpg){.lab-photo fig-alt="Kayla Gautereaux at the piano coaching a singer"}
 [Photo: Simon Simard for Berklee]{.photo-credit}
 
-I call my approach scientific method informed voice teaching. In a lesson, I listen and watch, the student tells me what they feel, and we decide together what to try next. We keep what turns out to be observable, measurable, and repeatable. Over time I want students to be able to run these experiments on their own.
-
-I tell my graduate students that research is a form of artistic expression, and that the best questions in voice research come from what teachers notice in their own studios. I talked about all of this on the VocalFri Podcast in 2025:
+I call my approach scientific method informed voice teaching. In a lesson I listen and watch, the student tells me what they feel, and we decide together what to try next. We keep what is observable, measurable, and repeatable, and over time students learn to run these experiments without me. I talked about this approach on the VocalFri Podcast in 2025.
 
 <iframe title="Scientific Method Informed Voice Teaching, VocalFri Podcast" class="podcast-player" height="150" width="100%" scrolling="no" loading="lazy" src="https://www.podbean.com/player-v2/?i=88x5b-1998280&share=0&download=0"></iframe>
 
+I supervise graduate research the same way. Students start from something they have noticed in their own teaching or singing and turn it into a question they can test.
+
 ## What I'm building now
 
-In 2024 I started building the AI Supported Voice Studio Portal, which I now use with my private students. After each lesson it produces a debrief and a practice plan, and students use it to track their progress between lessons. In 2026 it won the Pan American Vocology Association's Best Microworkshop/ToolTalk award. [More about the portal](ai-learning.qmd).
+![](images/portal-dashboard.jpg){.lab-photo .screenshot-frame fig-alt="The studio portal demo dashboard with sample student data"}
+
+In 2024 I started building the AI Supported Voice Studio Portal for my private students. After each lesson it produces a debrief and a practice plan, and between lessons students use it to log their practice and reflect on how it went. In 2026 it won the Pan American Vocology Association's Best Microworkshop/ToolTalk award. [More about my work with AI](ai-learning.qmd).
 
 I want good voice pedagogy training to be available to teachers who cannot move to a conservatory city or pay conservatory tuition, and most of what I build now is meant for them.
 
@@ -64,13 +67,13 @@ I present regularly at the Voice Foundation Symposium, the Pan American Vocology
 
 ## Performing
 
-I perform as a soloist and in choirs, and I sang backup for Ellie Goulding's "Still Falling for You" at the 2022 Earthshot Prize Awards in Boston, with the Prince and Princess of Wales in the audience.
-
 ::: {.video-embed}
 <iframe src="https://www.youtube-nocookie.com/embed/-Iq9usG3mBM?rel=0" title="Ellie Goulding performs Still Falling for You, The Earthshot Prize 2022 (BBC)" allow="encrypted-media; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" loading="lazy" allowfullscreen></iframe>
 :::
 
 [Ellie Goulding, "Still Falling for You," The Earthshot Prize 2022. Video: BBC]{.video-caption}
+
+I perform as a soloist and in choirs. In 2022 I sang backup for Ellie Goulding's "Still Falling for You" at the Earthshot Prize Awards in Boston, with the Prince and Princess of Wales in the audience.
 
 ::: {.two-col}
 
