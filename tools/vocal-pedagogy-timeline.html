@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History of Vocal Pedagogy Timeline</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.5/babel.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            color: #e0e0e0;
+        }
+        #root {
+            min-height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+        const { useState, useEffect, useRef } = React;
+
+        // Timeline data from your spreadsheet
+        const timelineData = [
+            // Western Historical Music Periods
+            { startDate: "1730-01-01", endDate: "1830-01-01", title: "Classical", group: "Western Historical Music Periods", color: "#8B5CF6" },
+            { startDate: "1830-01-01", endDate: "1850-01-01", title: "Early Romantic", group: "Western Historical Music Periods", color: "#8B5CF6" },
+            { startDate: "1850-01-01", endDate: "1920-01-01", title: "Late Romantic", group: "Western Historical Music Periods", color: "#8B5CF6" },
+            { startDate: "1920-01-01", endDate: "1945-01-01", title: "Modernism", group: "Western Historical Music Periods", color: "#8B5CF6" },
+            { startDate: "1945-01-01", endDate: "2022-12-31", title: "Contemporary", group: "Western Historical Music Periods", color: "#8B5CF6" },
+
+            // Significant World/Cultural Events
+            { startDate: "1760-01-01", endDate: "1840-01-01", title: "Industrial Revolution", group: "Significant World/Cultural Events", color: "#EF4444" },
+            { startDate: "1914-07-28", endDate: "1918-11-11", title: "World War I", group: "Significant World/Cultural Events", color: "#EF4444" },
+            { startDate: "1929-09-01", endDate: "1945-09-02", title: "World War II", group: "Significant World/Cultural Events", color: "#EF4444" },
+            { startDate: "1950-06-25", endDate: "1953-07-27", title: "Korean War", group: "Significant World/Cultural Events", color: "#EF4444" },
+            { startDate: "1955-11-01", endDate: "1975-04-30", title: "Vietnam War", group: "Significant World/Cultural Events", color: "#EF4444" },
+            { startDate: "2001-09-11", endDate: null, title: "September 11, 2001", group: "Significant World/Cultural Events", color: "#EF4444" },
+
+            // Pedagogue Lifespans
+            { startDate: "1775-01-22", endDate: "1832-06-10", title: "Manuel García I", group: "Pedagogue Lifespan", color: "#10B981" },
+            { startDate: "1790-03-15", endDate: "1848-08-05", title: "Nicola Vaccai", group: "Pedagogue Lifespan", color: "#10B981" },
+            { startDate: "1805-03-17", endDate: "1906-07-01", title: "Manuel García II", group: "Pedagogue Lifespan", color: "#10B981" },
+            { startDate: "1821-03-24", endDate: "1913-11-17", title: "Mathilde Marchesi", group: "Pedagogue Lifespan", color: "#10B981" },
+            { startDate: "1821-07-18", endDate: "1910-05-18", title: "Pauline Viardot-García", group: "Pedagogue Lifespan", color: "#10B981" },
+            { startDate: "1848-11-24", endDate: "1929-05-17", title: "Lilli Lehmann", group: "Pedagogue Lifespan", color: "#10B981" },
+            { startDate: "1876-06-29", endDate: "1922-12-13", title: "E. Azalia Hackley", group: "Pedagogue Lifespan", color: "#10B981" },
+            { startDate: "1880-04-21", endDate: "1970-09-25", title: "Estelle Liebling", group: "Pedagogue Lifespan", color: "#10B981" },
+            { startDate: "1909-01-31", endDate: "1971-03-14", title: "William Vennard", group: "Pedagogue Lifespan", color: "#10B981" },
+            { startDate: "1910-04-11", endDate: "1987-06-12", title: "Berton Coffin", group: "Pedagogue Lifespan", color: "#10B981" },
+            { startDate: "1911-02-07", endDate: "2008-06-30", title: "Cornelius L. Reid", group: "Pedagogue Lifespan", color: "#10B981" },
+            { startDate: "1921-04-25", endDate: "2010-12-02", title: "Jo Estill", group: "Pedagogue Lifespan", color: "#10B981" },
+            { startDate: "1922-01-01", endDate: "2013-06-29", title: "Barbara Doscher", group: "Pedagogue Lifespan", color: "#10B981" },
+            { startDate: "1922-11-30", endDate: "2016-12-21", title: "Weston Noble", group: "Pedagogue Lifespan", color: "#10B981" },
+            { startDate: "1926-04-09", endDate: "2009-05-08", title: "Richard Miller", group: "Pedagogue Lifespan", color: "#10B981" },
+            { startDate: "1930-09-19", endDate: "2022-09-02", title: "Seth Riggs", group: "Pedagogue Lifespan", color: "#10B981" },
+            { startDate: "1934-04-18", endDate: null, title: "George Shirley", group: "Pedagogue Lifespan", color: "#10B981" },
+            { startDate: "1938-04-20", endDate: null, title: "Meribeth Dayme", group: "Pedagogue Lifespan", color: "#10B981" },
+            { startDate: "1951-05-12", endDate: null, title: "Ken Bozeman", group: "Pedagogue Lifespan", color: "#10B981" },
+            { startDate: "1956-12-14", endDate: null, title: "Mary Saunders Barton", group: "Pedagogue Lifespan", color: "#10B981" },
+            { startDate: "1960-01-01", endDate: null, title: "Joan Melton", group: "Pedagogue Lifespan", color: "#10B981" },
+            { startDate: "1960-01-01", endDate: null, title: "Lynn Helding", group: "Pedagogue Lifespan", color: "#10B981" },
+            { startDate: "1964-01-01", endDate: null, title: "Kari Ragan", group: "Pedagogue Lifespan", color: "#10B981" },
+            { startDate: "1972-01-01", endDate: null, title: "Cheryl Porter", group: "Pedagogue Lifespan", color: "#10B981" },
+            { startDate: "1979-07-17", endDate: null, title: "Felix Graham", group: "Pedagogue Lifespan", color: "#10B981" },
+
+            // Major Book Publications
+            { startDate: "1813-11-08", endDate: null, title: "Il califfo di bagdad", detail: "Manuel García I", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "1814-02-09", endDate: null, title: "Diana ed Endimione", detail: "Manuel García I", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "1814-11-04", endDate: null, title: "Tella e Dallaton", detail: "Manuel García I", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "1822-06-26", endDate: null, title: "Florestan ou Le conseil des dix", detail: "Manuel García I", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "1832-01-01", endDate: null, title: "Metodo pratico di canto italiano per camera", detail: "Nicola Vaccai", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "1847-01-01", endDate: null, title: "A Complete Treatise on the Art of Singing", detail: "Manuel García II", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "1880-01-01", endDate: null, title: "Une heure d'étude (An Hour of Study)", detail: "Pauline Viardot-García", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "1894-01-01", endDate: null, title: "Hints on Singing", detail: "Manuel García II", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "1900-01-02", endDate: null, title: "Bel Canto: A Theoretical and Practical Vocal Method", detail: "Mathilde Marchesi", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "1900-01-02", endDate: null, title: "Twenty-Four Vocalises for Soprano or Mezzo-Soprano", detail: "Mathilde Marchesi", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "1900-01-02", endDate: null, title: "Elementary Progressive Exercises, Op. 1", detail: "Mathilde Marchesi", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "1900-01-02", endDate: null, title: "Marchesi Vocal Method, Vol. 1664, Op. 31", detail: "Mathilde Marchesi", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "1900-01-02", endDate: null, title: "Ten Singing Lessons", detail: "Mathilde Marchesi", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "1902-01-01", endDate: null, title: "Meine Gesangskunst", detail: "Lilli Lehmann", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "1914-01-01", endDate: null, title: "Mein Weg", detail: "Lilli Lehmann", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "1949-01-01", endDate: null, title: "Singing: The Mechanism and the Technic", detail: "William Vennard", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "1950-01-01", endDate: null, title: "Bel Canto: Principles and Practices", detail: "Cornelius L. Reid", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "1956-01-01", endDate: null, title: "Singer's Repertoire", detail: "Berton Coffin", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "1960-01-01", endDate: null, title: "Sounds of Singing", detail: "Berton Coffin", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "1965-01-01", endDate: null, title: "The Free Voice", detail: "Cornelius L. Reid", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "1970-01-01", endDate: null, title: "The Estelle Liebling Coloratura Digest", detail: "Estelle Liebling", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "1970-01-01", endDate: null, title: "Voice Matching", detail: "Jo Estill", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "1975-01-01", endDate: null, title: "Voice: Psyche and Soma", detail: "Cornelius L. Reid", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "1977-01-01", endDate: null, title: "National School of Singing", detail: "Richard Miller", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "1980-01-01", endDate: null, title: "Overtones of Belcanto", detail: "Berton Coffin", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "1981-01-01", endDate: null, title: "The Estelle Liebling Vocal Course", detail: "Estelle Liebling", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "1981-01-01", endDate: null, title: "Historical Vocal Pedagogy Classics", detail: "Berton Coffin", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "1983-02-03", endDate: null, title: "A Dictionary of Vocal Terminology", detail: "Cornelius L. Reid", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "1986-01-01", endDate: null, title: "The Structure of Singing", detail: "Richard Miller", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "1988-01-01", endDate: null, title: "The Functional Unity of the Singing Voice", detail: "Barbara Doscher", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "1988-01-01", endDate: null, title: "Estill Voice Training Launch", detail: "Jo Estill", group: "Voice Training Program", color: "#EC4899" },
+            { startDate: "1992-01-01", endDate: null, title: "Essays on the Nature of Singing", detail: "Cornelius L. Reid", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "1992-09-01", endDate: null, title: "Singing for the Stars", detail: "Seth Riggs", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "1993-01-01", endDate: null, title: "Training Tenor Voices", detail: "Richard Miller", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "1996-01-01", endDate: null, title: "On the Art of Singing", detail: "Richard Miller", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "2000-01-01", endDate: null, title: "Training Soprano Voices", detail: "Richard Miller", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "2002-01-01", endDate: null, title: "From Studio to Stage", detail: "Richard Miller", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "2004-01-01", endDate: null, title: "Solutions for Singers", detail: "Richard Miller", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "2007-08-07", endDate: null, title: "Singing in Musical Theatre", detail: "Joan Melton", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "2008-01-01", endDate: null, title: "Securing Baritone, Bass-Baritone, and Bass Voices", detail: "Richard Miller", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "2013-01-01", endDate: null, title: "Practical Vocal Acoustics", detail: "Ken Bozeman", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "2015-08-04", endDate: null, title: "Dancing with Voice", detail: "Cheryl Porter", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "2017-07-16", endDate: null, title: "Kinesthetic Vocal Pedagogy", detail: "Ken Bozeman", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "2018-05-18", endDate: null, title: "Cross-Training in the Voice Studio", detail: "Mary Saunders Barton", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "2018-11-21", endDate: null, title: "Defining Evidence-Based Voice Pedagogy", detail: "Kari Ragan", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "2019-02-13", endDate: null, title: "Singing While Female", detail: "Kari Ragan", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "2020-01-01", endDate: null, title: "A Systematic Approach to Voice", detail: "Kari Ragan", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "2020-01-27", endDate: null, title: "The Musician's Mind", detail: "Lynn Helding", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "2021-03-17", endDate: null, title: "Evidence-Based Voice Pedagogy: Part 1", detail: "Kari Ragan", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "2022-01-01", endDate: null, title: "One Voice", detail: "Joan Melton", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "2022-01-13", endDate: null, title: "Evidence-Based Voice Pedagogy: Part 2", detail: "Kari Ragan", group: "Major Book Publications", color: "#F59E0B" },
+            { startDate: "2022-04-30", endDate: null, title: "Evidence-Based Voice Pedagogy: Part 3", detail: "Kari Ragan", group: "Major Book Publications", color: "#F59E0B" },
+        ];
+
+        const groups = [
+            { name: "Western Historical Music Periods", color: "#8B5CF6" },
+            { name: "Significant World/Cultural Events", color: "#EF4444" },
+            { name: "Pedagogue Lifespan", color: "#10B981" },
+            { name: "Major Book Publications", color: "#F59E0B" },
+            { name: "Voice Training Program", color: "#EC4899" },
+        ];
+
+        function VocalPedagogyTimeline() {
+            const [selectedGroup, setSelectedGroup] = useState("all");
+            const [zoomLevel, setZoomLevel] = useState(1);
+            const [hoveredEvent, setHoveredEvent] = useState(null);
+            const [viewMode, setViewMode] = useState("full"); // "full" or "century"
+            const [selectedCentury, setSelectedCentury] = useState(null);
+            const containerRef = useRef(null);
+
+            const minYear = 1730;
+            const maxYear = 2025;
+            const totalYears = maxYear - minYear;
+
+            const getFilteredData = () => {
+                let filtered = timelineData;
+                if (selectedGroup !== "all") {
+                    filtered = filtered.filter(d => d.group === selectedGroup);
+                }
+                if (viewMode === "century" && selectedCentury) {
+                    filtered = filtered.filter(d => {
+                        const year = new Date(d.startDate).getFullYear();
+                        return year >= selectedCentury && year < selectedCentury + 100;
+                    });
+                }
+                return filtered;
+            };
+
+            const getYearPosition = (dateStr) => {
+                const date = new Date(dateStr);
+                const year = date.getFullYear();
+                let startYear = minYear;
+                let endYear = maxYear;
+
+                if (viewMode === "century" && selectedCentury) {
+                    startYear = selectedCentury;
+                    endYear = selectedCentury + 100;
+                }
+
+                return ((year - startYear) / (endYear - startYear)) * 100;
+            };
+
+            const centuries = [1700, 1800, 1900, 2000];
+
+            const filteredData = getFilteredData();
+
+            // Group events by their group category for rendering
+            const eventsByGroup = {};
+            groups.forEach(g => {
+                eventsByGroup[g.name] = filteredData.filter(d => d.group === g.name);
+            });
+
+            return (
+                <div style={{
+                    minHeight: "100vh",
+                    padding: "20px",
+                    maxWidth: "100%",
+                    overflow: "hidden"
+                }}>
+                    {/* Header */}
+                    <header style={{
+                        textAlign: "center",
+                        marginBottom: "30px",
+                        padding: "20px"
+                    }}>
+                        <h1 style={{
+                            fontSize: "2.5rem",
+                            background: "linear-gradient(90deg, #8B5CF6, #EC4899, #F59E0B)",
+                            WebkitBackgroundClip: "text",
+                            WebkitTextFillColor: "transparent",
+                            marginBottom: "10px"
+                        }}>
+                            History of Vocal Pedagogy
+                        </h1>
+                        <p style={{ color: "#9CA3AF", fontSize: "1.1rem" }}>
+                            Interactive Collaborative Timeline • 1730-2025
+                        </p>
+                    </header>
+
+                    {/* Controls */}
+                    <div style={{
+                        display: "flex",
+                        flexWrap: "wrap",
+                        gap: "15px",
+                        marginBottom: "30px",
+                        justifyContent: "center",
+                        alignItems: "center"
+                    }}>
+                        {/* View Mode Toggle */}
+                        <div style={{
+                            display: "flex",
+                            background: "#1F2937",
+                            borderRadius: "10px",
+                            padding: "5px"
+                        }}>
+                            <button
+                                onClick={() => { setViewMode("full"); setSelectedCentury(null); }}
+                                style={{
+                                    padding: "8px 16px",
+                                    border: "none",
+                                    borderRadius: "8px",
+                                    cursor: "pointer",
+                                    background: viewMode === "full" ? "#4F46E5" : "transparent",
+                                    color: viewMode === "full" ? "white" : "#9CA3AF",
+                                    transition: "all 0.2s"
+                                }}
+                            >
+                                Full Timeline
+                            </button>
+                            <button
+                                onClick={() => setViewMode("century")}
+                                style={{
+                                    padding: "8px 16px",
+                                    border: "none",
+                                    borderRadius: "8px",
+                                    cursor: "pointer",
+                                    background: viewMode === "century" ? "#4F46E5" : "transparent",
+                                    color: viewMode === "century" ? "white" : "#9CA3AF",
+                                    transition: "all 0.2s"
+                                }}
+                            >
+                                By Century
+                            </button>
+                        </div>
+
+                        {/* Century Selector (when in century mode) */}
+                        {viewMode === "century" && (
+                            <div style={{ display: "flex", gap: "8px" }}>
+                                {centuries.map(century => (
+                                    <button
+                                        key={century}
+                                        onClick={() => setSelectedCentury(century)}
+                                        style={{
+                                            padding: "8px 16px",
+                                            border: selectedCentury === century ? "2px solid #8B5CF6" : "2px solid #374151",
+                                            borderRadius: "8px",
+                                            cursor: "pointer",
+                                            background: selectedCentury === century ? "#4F46E5" : "#1F2937",
+                                            color: "white",
+                                            transition: "all 0.2s"
+                                        }}
+                                    >
+                                        {century}s
+                                    </button>
+                                ))}
+                            </div>
+                        )}
+
+                        {/* Group Filter */}
+                        <select
+                            value={selectedGroup}
+                            onChange={(e) => setSelectedGroup(e.target.value)}
+                            style={{
+                                padding: "10px 15px",
+                                borderRadius: "10px",
+                                border: "2px solid #374151",
+                                background: "#1F2937",
+                                color: "white",
+                                cursor: "pointer",
+                                fontSize: "0.95rem"
+                            }}
+                        >
+                            <option value="all">All Categories</option>
+                            {groups.map(g => (
+                                <option key={g.name} value={g.name}>{g.name}</option>
+                            ))}
+                        </select>
+
+                        {/* Zoom Controls */}
+                        <div style={{ display: "flex", gap: "8px", alignItems: "center" }}>
+                            <button
+                                onClick={() => setZoomLevel(Math.max(0.5, zoomLevel - 0.25))}
+                                style={{
+                                    padding: "8px 15px",
+                                    border: "2px solid #374151",
+                                    borderRadius: "8px",
+                                    cursor: "pointer",
+                                    background: "#1F2937",
+                                    color: "white"
+                                }}
+                            >
+                                -
+                            </button>
+                            <span style={{ color: "#9CA3AF", minWidth: "60px", textAlign: "center" }}>
+                                {Math.round(zoomLevel * 100)}%
+                            </span>
+                            <button
+                                onClick={() => setZoomLevel(Math.min(3, zoomLevel + 0.25))}
+                                style={{
+                                    padding: "8px 15px",
+                                    border: "2px solid #374151",
+                                    borderRadius: "8px",
+                                    cursor: "pointer",
+                                    background: "#1F2937",
+                                    color: "white"
+                                }}
+                            >
+                                +
+                            </button>
+                        </div>
+                    </div>
+
+                    {/* Legend */}
+                    <div style={{
+                        display: "flex",
+                        flexWrap: "wrap",
+                        gap: "15px",
+                        marginBottom: "30px",
+                        justifyContent: "center"
+                    }}>
+                        {groups.map(g => (
+                            <div
+                                key={g.name}
+                                onClick={() => setSelectedGroup(selectedGroup === g.name ? "all" : g.name)}
+                                style={{
+                                    display: "flex",
+                                    alignItems: "center",
+                                    gap: "8px",
+                                    padding: "8px 15px",
+                                    background: selectedGroup === g.name ? g.color + "30" : "#1F2937",
+                                    borderRadius: "20px",
+                                    cursor: "pointer",
+                                    border: `2px solid ${selectedGroup === g.name ? g.color : "#374151"}`,
+                                    transition: "all 0.2s"
+                                }}
+                            >
+                                <div style={{
+                                    width: "12px",
+                                    height: "12px",
+                                    borderRadius: "50%",
+                                    background: g.color
+                                }} />
+                                <span style={{ fontSize: "0.85rem" }}>{g.name}</span>
+                            </div>
+                        ))}
+                    </div>
+
+                    {/* Stats */}
+                    <div style={{
+                        textAlign: "center",
+                        marginBottom: "20px",
+                        color: "#9CA3AF"
+                    }}>
+                        Showing {filteredData.length} events
+                    </div>
+
+                    {/* Timeline Container */}
+                    <div
+                        ref={containerRef}
+                        style={{
+                            overflowX: "auto",
+                            overflowY: "visible",
+                            padding: "20px 0"
+                        }}
+                    >
+                        <div style={{
+                            minWidth: `${100 * zoomLevel}%`,
+                            position: "relative"
+                        }}>
+                            {/* Year Markers */}
+                            <div style={{
+                                position: "relative",
+                                height: "50px",
+                                borderBottom: "2px solid #374151",
+                                marginBottom: "20px"
+                            }}>
+                                {(() => {
+                                    const startYear = viewMode === "century" && selectedCentury ? selectedCentury : minYear;
+                                    const endYear = viewMode === "century" && selectedCentury ? selectedCentury + 100 : maxYear;
+                                    const interval = viewMode === "century" ? 10 : 25;
+                                    const markers = [];
+                                    for (let year = startYear; year <= endYear; year += interval) {
+                                        const pos = ((year - startYear) / (endYear - startYear)) * 100;
+                                        markers.push(
+                                            <div key={year} style={{
+                                                position: "absolute",
+                                                left: `${pos}%`,
+                                                transform: "translateX(-50%)",
+                                                textAlign: "center"
+                                            }}>
+                                                <div style={{
+                                                    width: "2px",
+                                                    height: "15px",
+                                                    background: "#6B7280",
+                                                    margin: "0 auto"
+                                                }} />
+                                                <span style={{
+                                                    fontSize: "0.8rem",
+                                                    color: "#9CA3AF",
+                                                    display: "block",
+                                                    marginTop: "5px"
+                                                }}>
+                                                    {year}
+                                                </span>
+                                            </div>
+                                        );
+                                    }
+                                    return markers;
+                                })()}
+                            </div>
+
+                            {/* Event Rows by Group */}
+                            {groups.map((group, groupIndex) => {
+                                const groupEvents = eventsByGroup[group.name] || [];
+                                if (groupEvents.length === 0) return null;
+
+                                // Separate span events from point events
+                                const spanEvents = groupEvents.filter(e => e.endDate);
+                                const pointEvents = groupEvents.filter(e => !e.endDate);
+
+                                return (
+                                    <div key={group.name} style={{ marginBottom: "30px" }}>
+                                        <div style={{
+                                            color: group.color,
+                                            fontSize: "0.9rem",
+                                            fontWeight: "600",
+                                            marginBottom: "10px",
+                                            paddingLeft: "10px",
+                                            borderLeft: `3px solid ${group.color}`
+                                        }}>
+                                            {group.name}
+                                        </div>
+
+                                        {/* Span Events (lifespans, periods) */}
+                                        {spanEvents.length > 0 && (
+                                            <div style={{
+                                                position: "relative",
+                                                minHeight: `${Math.ceil(spanEvents.length / 3) * 45}px`,
+                                                marginBottom: "10px"
+                                            }}>
+                                                {spanEvents.map((event, idx) => {
+                                                    const startPos = getYearPosition(event.startDate);
+                                                    const endYear = event.endDate || "2025-01-01";
+                                                    const endPos = getYearPosition(endYear);
+                                                    const width = Math.max(endPos - startPos, 2);
+                                                    const row = idx % 3;
+
+                                                    return (
+                                                        <div
+                                                            key={idx}
+                                                            onMouseEnter={() => setHoveredEvent(event)}
+                                                            onMouseLeave={() => setHoveredEvent(null)}
+                                                            style={{
+                                                                position: "absolute",
+                                                                left: `${startPos}%`,
+                                                                width: `${width}%`,
+                                                                top: `${row * 40}px`,
+                                                                height: "30px",
+                                                                background: `linear-gradient(90deg, ${event.color}CC, ${event.color}99)`,
+                                                                borderRadius: "15px",
+                                                                display: "flex",
+                                                                alignItems: "center",
+                                                                justifyContent: "center",
+                                                                padding: "0 10px",
+                                                                cursor: "pointer",
+                                                                transition: "all 0.2s",
+                                                                boxShadow: hoveredEvent === event ? `0 4px 15px ${event.color}50` : "none",
+                                                                transform: hoveredEvent === event ? "scale(1.02)" : "scale(1)",
+                                                                zIndex: hoveredEvent === event ? 100 : 1
+                                                            }}
+                                                        >
+                                                            <span style={{
+                                                                fontSize: "0.75rem",
+                                                                color: "white",
+                                                                fontWeight: "500",
+                                                                whiteSpace: "nowrap",
+                                                                overflow: "hidden",
+                                                                textOverflow: "ellipsis"
+                                                            }}>
+                                                                {event.title}
+                                                            </span>
+                                                        </div>
+                                                    );
+                                                })}
+                                            </div>
+                                        )}
+
+                                        {/* Point Events (publications, etc) */}
+                                        {pointEvents.length > 0 && (
+                                            <div style={{
+                                                position: "relative",
+                                                height: "80px"
+                                            }}>
+                                                {pointEvents.map((event, idx) => {
+                                                    const pos = getYearPosition(event.startDate);
+                                                    const offset = (idx % 5) * 12;
+
+                                                    return (
+                                                        <div
+                                                            key={idx}
+                                                            onMouseEnter={() => setHoveredEvent(event)}
+                                                            onMouseLeave={() => setHoveredEvent(null)}
+                                                            style={{
+                                                                position: "absolute",
+                                                                left: `${pos}%`,
+                                                                top: `${offset}px`,
+                                                                transform: "translateX(-50%)",
+                                                                zIndex: hoveredEvent === event ? 100 : 1
+                                                            }}
+                                                        >
+                                                            <div style={{
+                                                                width: hoveredEvent === event ? "14px" : "10px",
+                                                                height: hoveredEvent === event ? "14px" : "10px",
+                                                                borderRadius: "50%",
+                                                                background: event.color,
+                                                                border: "2px solid white",
+                                                                cursor: "pointer",
+                                                                transition: "all 0.2s",
+                                                                boxShadow: hoveredEvent === event ? `0 0 15px ${event.color}` : "none"
+                                                            }} />
+                                                        </div>
+                                                    );
+                                                })}
+                                            </div>
+                                        )}
+                                    </div>
+                                );
+                            })}
+                        </div>
+                    </div>
+
+                    {/* Hover Tooltip */}
+                    {hoveredEvent && (
+                        <div style={{
+                            position: "fixed",
+                            bottom: "20px",
+                            left: "50%",
+                            transform: "translateX(-50%)",
+                            background: "#1F2937",
+                            border: `2px solid ${hoveredEvent.color}`,
+                            borderRadius: "15px",
+                            padding: "15px 25px",
+                            boxShadow: `0 10px 40px ${hoveredEvent.color}30`,
+                            zIndex: 1000,
+                            maxWidth: "90%"
+                        }}>
+                            <div style={{
+                                display: "flex",
+                                alignItems: "center",
+                                gap: "10px",
+                                marginBottom: "8px"
+                            }}>
+                                <div style={{
+                                    width: "8px",
+                                    height: "8px",
+                                    borderRadius: "50%",
+                                    background: hoveredEvent.color
+                                }} />
+                                <span style={{ fontSize: "0.8rem", color: "#9CA3AF" }}>
+                                    {hoveredEvent.group}
+                                </span>
+                            </div>
+                            <h3 style={{
+                                fontSize: "1.1rem",
+                                color: "white",
+                                marginBottom: "5px"
+                            }}>
+                                {hoveredEvent.title}
+                            </h3>
+                            <p style={{ color: "#9CA3AF", fontSize: "0.9rem" }}>
+                                {new Date(hoveredEvent.startDate).getFullYear()}
+                                {hoveredEvent.endDate && ` - ${new Date(hoveredEvent.endDate).getFullYear()}`}
+                                {hoveredEvent.detail && ` • ${hoveredEvent.detail}`}
+                            </p>
+                        </div>
+                    )}
+
+                    {/* Footer */}
+                    <footer style={{
+                        textAlign: "center",
+                        marginTop: "40px",
+                        padding: "20px",
+                        color: "#6B7280",
+                        fontSize: "0.85rem"
+                    }}>
+                        History of Vocal Pedagogy Collaborative Timeline • Created from class data
+                    </footer>
+                </div>
+            );
+        }
+
+        ReactDOM.render(<VocalPedagogyTimeline />, document.getElementById('root'));
+    </script>
+</body>
+</html>
