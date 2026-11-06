@@ -57,7 +57,7 @@ In my History of Vocal Pedagogy seminar, each graduate student researches a peda
 
 Of course, a clear understanding of the settings for data security and privacy is incredibly important, and so is informed consent.
 
-Before a student uses the studio portal, they read and accept a consent form that explains what the portal does, how their information is stored and used, and what their rights are. Using the portal is voluntary and has no effect on a student's standing in my studio, and students who would rather not use it can work out another arrangement with me. They can withdraw their consent or ask me to delete their data at any time. Studio data are never used for research without a separate consent process approved by Berklee's institutional review board.
+Before a student uses the studio portal, they read and accept a consent form that explains what the portal does, how their information is stored and used, and what their rights are. Using the portal is voluntary and has no effect on a student's standing in my studio, and students who would rather not use it can work out another arrangement with me. They can withdraw their consent or ask me to delete their data at any time.
 
 In the portal, lesson audio is transcribed on my own computer and is never sent to an outside transcription service. Before a transcript goes to Claude, the student's name is replaced with an identifier, and I have opted out of Anthropic using my data to train its models. Lesson records are kept in a protected database where each student can see only their own. I review everything the AI writes before a student sees it.
 
