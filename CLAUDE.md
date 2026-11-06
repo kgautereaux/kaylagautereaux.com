@@ -24,7 +24,7 @@ quarto publish gh-pages --no-prompt --no-browser
 - The root `CNAME` file (`kaylagautereaux.com`) is required. `quarto publish` copies it to `gh-pages`, which keeps the custom domain attached. Removing it detaches the domain.
 - `site-url` in `_quarto.yml` must stay `https://kaylagautereaux.com` (used for Open Graph and the sitemap).
 - HTTPS certificate: GitHub only requests one when the domain is saved after DNS is correct. If the cert ever shows as missing, re-save the domain: `echo '{"cname": null}' | gh api -X PUT repos/kgautereaux/kaylagautereaux.com/pages --input -`, then the same with `"kaylagautereaux.com"`, then `echo '{"https_enforced": true}' | gh api -X PUT ... --input -`.
-- DNS lives at GoDaddy. Apex `@` A records point to GitHub (185.199.108–111.153); `www` CNAME to `kgautereaux.github.io`; `research` and `studio` CNAMEs to `kgautereaux.github.io`. The MX and TXT records run Kayla's email: never touch them.
+- The domain is registered at GoDaddy (since 2013, paid through July 18, 2028), and DNS lives there too. Squarespace never held the domain or email. Apex `@` A records point to GitHub (185.199.108–111.153); `www` CNAME to `kgautereaux.github.io`; `research` and `studio` CNAMEs to `kgautereaux.github.io`. The MX and TXT records run Kayla's email: never touch them.
 - Shell DNS lookups (`dig`) don't work from Claude's sandbox. Use `https://dns.google/resolve?name=...&type=...` in the browser pane instead.
 
 ### Never commit or publish
