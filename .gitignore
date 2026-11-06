@@ -16,3 +16,4 @@ brand-strategy.md
 
 # Symlink to ../shared-design (outside this repo); not used by the Quarto build
 /shared-design
+!tools/*.html
