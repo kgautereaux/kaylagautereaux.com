@@ -5,7 +5,7 @@ description: "Kayla Gautereaux uses AI to build specialized tools that deepen st
 
 ::: {.content-section}
 
-One of the biggest fears about artificial intelligence in education is the loss of human intelligence. The specific concern is that using AI will replace the need to learn, and with it the human ability to learn. The right tools in the right hands can do a lot of good, and there is also real potential for harm and waste.
+One of the biggest fears about artificial intelligence in education is that it will replace the need to learn, and with it the human ability to learn. I think of AI as a partner, much like a partner in a group project. It is fast and capable, and it also has blind spots and quirks. In any group, not every person is the right one to hand a given task to, and working well together means knowing who should do what. The same is true of AI. As educators, we have to be thoughtful about which work we hand to it and which work stays with our students.
 
 I'm an enthusiastic proponent of experts using AI to build tools that deepen student engagement and learning. For me, the sweet spot is using AI to develop an advanced, specialized tool that enhances learning, rather than using it to do the work of learning on our behalf.
 
