@@ -29,7 +29,7 @@ quarto publish gh-pages --no-prompt --no-browser
 
 ### Never commit or publish
 
-`.gitignore` excludes these, and `_quarto.yml` `render:` lists only the six public pages:
+`.gitignore` excludes these, and `_quarto.yml` `render:` lists only the six public pages (the timeline in `tools/` is copied as a resource, not rendered):
 - `Kayla Gautereaux Headshots/` and the 1.9GB headshot zip
 - `brand-strategy.md` (private March 2026 career notes)
 - `brand-options/` (old logo previews and palettes)
@@ -44,7 +44,7 @@ Top menu: About · Teaching · Research (→ research.kaylagautereaux.com) · Vo
 | `index.qmd` | Home | Split hero (lab spectrogram photo), "Singing for health" row with Berklee Office Hours video (autoplays muted with captions; browsers block sound), stats strip (2026 / 2023 / 35 / 33), alternating rows: Research, Teaching, AI and learning; closing photo band (Kayla as the Mother in *Amahl and the Night Visitors*) |
 | `about.qmd` | About | Chronological story: San Diego, New England Conservatory, Boston Conservatory, How I teach (+ VocalFri podcast), What I'm building now, Presentations and publications (selected), Performing (+ Earthshot video), Awards / Education |
 | `teaching.qmd` | Teaching | Two degrees + "Program details and how to apply" button (bostonconservatory.berklee.edu/vocal-pedagogy), then "How students move through the program" (Arriving, Every week, The teaching exam links the rubric on the program Google Site; Research; After graduation links the Google Site alumni and student-profile pages), Workshops (VPPW + sign-up), Vocal Academy (+ sign-up), Private studio |
-| `ai-learning.qmd` | AI and Learning | AI as a partner in teaching and learning, not a replacement. Podcast, studio portal (3 screenshots, demo buttons), research archive (built and maintained with Claude), consulting |
+| `ai-learning.qmd` | AI and Learning | Opens with Kayla's own text (Nov 2026) on the fear of losing human intelligence and the "sweet spot" of experts using AI to build tools that deepen learning. Podcast, studio portal (3 screenshots, demo buttons), research archive, History of Vocal Pedagogy timeline (interactive, embedded from `tools/vocal-pedagogy-timeline.html`; students used widely available sources and gave consent), privacy and data security, consulting |
 | `speaking.qmd` | Presentations & Media | Watch and listen (video + 2 podcast players), Presentations and publications by year (generated from `career-manager/voice-faculty-portfolio/cv-draft.md` plus 2026 talks), VocalFri episodes, topics |
 | `contact.qmd` | Contact | kgautereaux@gmail.com, LinkedIn, Boston area |
 
@@ -83,7 +83,7 @@ Page IDs: the old `ai-voice`, `learning-tools`, `research`, and `studio` pages w
 - Acoustic Vocal Pedagogy Workshop (Embodied Music Lab): on the faculty since 2019. She did not found it, and the site should not say she organizes it.
 - Do not say she taught herself Python.
 - Mezzo-soprano. 2022 Earthshot Prize Awards in Boston: backup for Ellie Goulding's "Still Falling for You," with the Prince and Princess of Wales in the audience.
-- AI Supported Voice Studio Portal: PAVA 2026 Best Microworkshop/ToolTalk. Research archive: 33 studies, 17 topics, 2022–2026, built and maintained with Claude.
+- AI Supported Voice Studio Portal: PAVA 2026 Best Microworkshop/ToolTalk. Privacy facts come from the portal's `consent.html`. Kayla has opted out of Anthropic training on her data (a setting she keeps on); say that, not "Anthropic does not train on API data." Research archive: 33 studies, 17 topics, 2022–2026, built and maintained with Claude.
 - 35 conference presentations by alumni since 2022 (19 Voice Foundation, 7 PAVA, 6 NATS). 2023 NATS Voice Pedagogy Award.
 - Journal of Singing article is by Mariana Elosúa Serna and Brian Manternach (82, no. 3, 2026, doi 10.53830/sing.00189); it builds on Mariana's thesis, which Kayla supervised.
 - Verify enrollment or outcome numbers with Kayla before adding them. The March 2026 outcome stats are commented out in `teaching.qmd` until confirmed.

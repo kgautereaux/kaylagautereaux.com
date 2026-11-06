@@ -17,6 +17,7 @@ project:
     - images/apple-touch-icon.png
     - images/og-card.jpg
     - images/hero.jpg
+    - tools/vocal-pedagogy-timeline.html
 
 website:
   title: "Kayla Gautereaux"
