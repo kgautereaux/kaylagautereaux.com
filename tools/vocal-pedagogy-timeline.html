@@ -129,7 +129,7 @@
             const [showPublications, setShowPublications] = useState(true);
             const [showPeriods, setShowPeriods] = useState(true);
             const [showWorldEvents, setShowWorldEvents] = useState(true);
-            const [zoomLevel, setZoomLevel] = useState(1);
+            const [zoomLevel, setZoomLevel] = useState(() => { const z = parseFloat(new URLSearchParams(window.location.search).get('zoom')); return z >= 0.5 && z <= 3 ? z : 1; });
             const [isMobile, setIsMobile] = useState(false);
             const [showLegend, setShowLegend] = useState(false);
             const [showControls, setShowControls] = useState(false);
