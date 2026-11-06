@@ -47,7 +47,7 @@ The archive holds the studies our graduate vocal pedagogy students have complete
 
 ## The History of Vocal Pedagogy Timeline
 
-<iframe title="History of Vocal Pedagogy interactive timeline" class="timeline-embed" src="tools/vocal-pedagogy-timeline.html" loading="lazy"></iframe>
+<iframe title="History of Vocal Pedagogy interactive timeline" class="timeline-embed" src="tools/vocal-pedagogy-timeline.html?zoom=0.5" loading="lazy"></iframe>
 
 In my History of Vocal Pedagogy seminar, each graduate student researches a pedagogue and adds events to a shared class timeline. With Claude, I turned the class's contributions into an interactive timeline of 36 pedagogues, from Pier Francesco Tosi in the 1600s to the present, shown alongside major publications, musical periods, and world events. Readers can zoom in and turn each layer on or off, which makes it easier to see who was teaching at the same time and what was happening around them. Every student who contributed worked from widely available sources and gave consent for their contributions to be shared.
 
