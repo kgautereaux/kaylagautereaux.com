@@ -100,7 +100,7 @@ I lead the MM in Vocal Pedagogy and the MFA in Musical Theater Vocal Pedagogy. I
 :::
 
 ::: {.split-media}
-![](images/vppw-workshop.jpg){fig-alt="Kayla Gautereaux teaching at the Vocal Pedagogy Professional Workshop while a singer holds an expanding sphere toy used to show breathing"}
+![](images/vppw-workshop.jpg){fig-alt="Kayla Gautereaux teaching a vocal pedagogy class while a singer holds an expanding sphere toy used to show breathing"}
 [Photo: Simon Simard for Berklee]{.photo-credit}
 :::
 

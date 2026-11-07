@@ -62,7 +62,7 @@ Page IDs: the old `ai-voice`, `learning-tools`, `research`, and `studio` pages w
 
 ## Media and credits
 
-- Berklee photos by **Simon Simard** (VPPW 2026 shoot): `lab-spectrogram`, `lab-breathing`, `vppw-workshop`, `vppw-piano`, `vppw-ear-model`, `vppw-group`. Every use carries `[Photo: Simon Simard for Berklee]{.photo-credit}`. Originals: `~/Downloads/berklee-mediagraph-download-#4191121.zip`.
+- Berklee photos by **Simon Simard**, from a Boston Conservatory vocal pedagogy photo shoot (not VPPW, despite the `vppw-` file names; Kayla, Nov 6, 2026): `lab-spectrogram`, `lab-breathing`, `vppw-workshop`, `vppw-piano`, `vppw-ear-model`, `vppw-group`, `class-piano-room`, `coaching-student-teacher` (Kayla coaching a graduate student teacher at the piano). Don't describe them as VPPW in alt text or captions. Every use carries `[Photo: Simon Simard for Berklee]{.photo-credit}`. Originals: `~/Downloads/berklee-mediagraph-download-#4191121.zip`.
 - Performance photos (`singing-*`): photographer and event unknown except `singing-costume` (the Mother in Menotti's *Amahl and the Night Visitors*). Headshots (`about`, `about-accent`, `hero`, `studio`, `speaking`): photographer not yet credited.
 - Images are web-sized (1600px long side, ~80% JPEG, metadata stripped). Never add full-resolution originals.
 - Embeds: YouTube via `youtube-nocookie.com`; VocalFri via Podbean `player-v2/?i=<id>` (88x5b-1998280 = Scientific Method Informed Voice Teaching; 2k3gu-1a9fb06 = AI and the Voice Practitioner).
