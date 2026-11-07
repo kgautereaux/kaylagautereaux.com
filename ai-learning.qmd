@@ -47,7 +47,28 @@ The archive holds the studies our graduate vocal pedagogy students have complete
 
 ## The History of Vocal Pedagogy Timeline
 
-<iframe title="History of Vocal Pedagogy interactive timeline" class="timeline-embed" src="tools/vocal-pedagogy-timeline.html?zoom=0.5" loading="lazy"></iframe>
+<div class="timeline-frame"><iframe title="History of Vocal Pedagogy interactive timeline" src="tools/vocal-pedagogy-timeline.html?zoom=0.5&bp=500" loading="lazy"></iframe></div>
+<script>
+(function () {
+  // Lay the timeline out at 960px wide, then scale it to the column so it matches the photos.
+  // On narrow screens, show it unscaled so its own phone layout takes over.
+  var box = document.querySelector('.timeline-frame');
+  var frame = box.querySelector('iframe');
+  function fit() {
+    var w = box.clientWidth;
+    if (w < 500) {
+      frame.style.width = w + 'px'; frame.style.height = '480px'; frame.style.transform = 'none';
+      box.style.height = '480px';
+    } else {
+      var s = w / 960;
+      frame.style.width = '960px'; frame.style.height = '640px'; frame.style.transform = 'scale(' + s + ')';
+      box.style.height = (640 * s) + 'px';
+    }
+  }
+  fit();
+  window.addEventListener('resize', fit);
+})();
+</script>
 
 In my History of Vocal Pedagogy seminar, each graduate student researches a pedagogue and adds events to a shared class timeline. With Claude, I turned the class's contributions into an interactive timeline of 36 pedagogues, from Pier Francesco Tosi in the 1600s to the present, shown alongside major publications, musical periods, and world events. Readers can zoom in and turn each layer on or off, which makes it easier to see who was teaching at the same time and what was happening around them. Every student who contributed worked from widely available sources and gave consent for their contributions to be shared.
 

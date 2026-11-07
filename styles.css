@@ -1191,17 +1191,16 @@ section[id] {
   overflow-wrap: anywhere;
 }
 
-/* Embedded interactive timeline (AI and Learning): breaks out of the text column so the timeline has room */
-.timeline-embed {
-  display: block;
-  width: min(960px, calc(100vw - 32px));
-  height: min(820px, 85vh);
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  border: 0;
-  border-radius: 6px;
-  box-shadow: 0 8px 24px rgba(15, 53, 51, 0.18);
+/* Embedded interactive timeline (AI and Learning): laid out at 960px and scaled to the column (script in ai-learning.qmd) so it matches the photos */
+.timeline-frame {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 2px;
   margin: 0.5rem 0 1.5rem;
   background: #1a1a2e;
+}
+.timeline-frame iframe {
+  display: block;
+  border: 0;
+  transform-origin: 0 0;
 }

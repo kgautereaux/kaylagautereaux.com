@@ -137,7 +137,7 @@
 
             // Detect mobile
             useEffect(() => {
-                const checkMobile = () => setIsMobile(window.innerWidth < 768);
+                const checkMobile = () => setIsMobile(window.innerWidth < (parseInt(new URLSearchParams(window.location.search).get('bp')) || 768));
                 checkMobile();
                 window.addEventListener('resize', checkMobile);
                 return () => window.removeEventListener('resize', checkMobile);
