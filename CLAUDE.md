@@ -90,9 +90,9 @@ Page IDs: the old `ai-voice`, `learning-tools`, `research`, and `studio` pages w
 
 ## Open items
 
-- Kayla to export anything wanted from Squarespace, then cancel it.
+- Squarespace reviewed Nov 6, 2026: nothing else to save (old About/Artistry/Contact text archived privately in `../squarespace-archive-2026-11.md`, not in this repo). Kayla to cancel the website plan only (it renewed Oct 23, 2026 for $242.25); Ian Howell's site is on the same Squarespace account, so don't close the account.
 - Optional: add kaylagautereaux.com under GitHub profile Settings → Pages → Verified domains (adds one TXT record in GoDaddy).
-- A singing recording for About (placeholder comment in `about.qmd`).
+- A singing recording for About (placeholder comment in `about.qmd`). Candidates from her 2019 NEC master's recital, on YouTube: "Green Finch and Linnet Bird" (xq0tcbw3pBo) and Price's "Sympathy" (URyTS9XFQKc). They carry deeply personal context (see the archive file); ask Kayla before using either.
 - Headshot photographer credit; captions and credits for the other three performance photos.
 - Confirm current graduate outcome numbers before restoring them.
 - research.kaylagautereaux.com still uses navy and studio.kaylagautereaux.com uses plum; matching them to the teal look is a separate decision.
