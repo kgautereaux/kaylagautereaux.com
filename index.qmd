@@ -27,26 +27,6 @@ I teach voice and vocal pedagogy at Boston Conservatory at Berklee, where I lead
 
 :::
 
-::: {.split .column-screen}
-
-::: {.split-text}
-## Singing for health
-
-In this episode of Berklee Office Hours, I talk about what singing does for our health and how to keep a voice healthy over a lifetime of use.
-
-[More about me →](about.qmd)
-:::
-
-::: {.split-media}
-::: {.video-embed}
-<iframe src="https://www.youtube-nocookie.com/embed/H32-zdhTzq0?autoplay=1&mute=1&cc_load_policy=1&playsinline=1&rel=0" title="Berklee Office Hours: Singing for Health and Healthy Singing" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" loading="eager" allowfullscreen></iframe>
-:::
-
-[Berklee Office Hours. Starts muted; click for sound.]{.video-caption}
-:::
-
-:::
-
 ::: {.stats-strip .column-screen}
 
 ::: {.stat}
@@ -67,6 +47,26 @@ In this episode of Berklee Office Hours, I talk about what singing does for our 
 ::: {.stat}
 [33]{.stat-big}
 [graduate studies in the public research archive]{.stat-note}
+:::
+
+:::
+
+::: {.split .column-screen}
+
+::: {.split-text}
+## Singing for health
+
+In this episode of Berklee Office Hours, I talk about what singing does for our health and how to keep a voice healthy over a lifetime of use.
+
+[More about me →](about.qmd)
+:::
+
+::: {.split-media}
+::: {.video-embed}
+<iframe src="https://www.youtube-nocookie.com/embed/H32-zdhTzq0?autoplay=1&mute=1&cc_load_policy=1&playsinline=1&rel=0" title="Berklee Office Hours: Singing for Health and Healthy Singing" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" loading="eager" allowfullscreen></iframe>
+:::
+
+[Berklee Office Hours. Starts muted; click for sound.]{.video-caption}
 :::
 
 :::

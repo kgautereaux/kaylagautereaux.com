@@ -1204,3 +1204,34 @@ section[id] {
   border: 0;
   transform-origin: 0 0;
 }
+
+/* ========================================
+   Shorter homepage hero (Nov 6, 2026): about two-thirds of a laptop
+   screen, so the stats strip shows on first load
+   ======================================== */
+@media (min-width: 861px) {
+  .hero.hero-split {
+    min-height: min(66vh, 34rem);
+    height: auto;
+  }
+
+  .hero.hero-split .hero-text {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .hero.hero-split .hero-text h1 {
+    margin-top: 0;
+  }
+
+  /* Keep the two hero buttons on one line */
+  .hero.hero-split .hero-text > p:has(.cta-button) {
+    max-width: none;
+  }
+
+  .hero.hero-split .cta-button {
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    margin-right: 0.5rem;
+  }
+}
