@@ -16,6 +16,9 @@ project:
     - images/favicon-32.png
     - images/apple-touch-icon.png
     - images/og-card.jpg
+    - images/og-about.jpg
+    - images/og-teaching.jpg
+    - images/og-speaking.jpg
     - images/hero.jpg
     - tools/vocal-pedagogy-timeline.html
 

@@ -12,7 +12,7 @@ page-layout: full
 # Kayla Gautereaux
 
 ::: {.subtitle}
-I teach voice and vocal pedagogy at Boston Conservatory at Berklee, where I lead the graduate vocal pedagogy area. I also build AI tools that support teaching and learning.
+I teach voice, I teach people how to teach voice, and I research how it all works. I'm on the faculty of Boston Conservatory at Berklee, where I lead the graduate vocal pedagogy area, and I build AI tools that support teaching and learning.
 :::
 
 [Research Archive](https://research.kaylagautereaux.com){.cta-button}
@@ -30,16 +30,6 @@ I teach voice and vocal pedagogy at Boston Conservatory at Berklee, where I lead
 ::: {.stats-strip .column-screen}
 
 ::: {.stat}
-[2026]{.stat-big}
-[Best Microworkshop/<wbr>ToolTalk award, Pan American Vocology Association]{.stat-note}
-:::
-
-::: {.stat}
-[2023]{.stat-big}
-[Voice Pedagogy Award, National Association of Teachers of Singing]{.stat-note}
-:::
-
-::: {.stat}
 [35]{.stat-big}
 [conference presentations by program alumni since 2022]{.stat-note}
 :::
@@ -47,6 +37,16 @@ I teach voice and vocal pedagogy at Boston Conservatory at Berklee, where I lead
 ::: {.stat}
 [33]{.stat-big}
 [graduate studies in the public research archive]{.stat-note}
+:::
+
+::: {.stat}
+[Best Microworkshop/<wbr>ToolTalk]{.stat-big .stat-word}
+[Pan American Vocology Association, 2026]{.stat-note}
+:::
+
+::: {.stat}
+[Voice Pedagogy Award]{.stat-big .stat-word}
+[National Association of Teachers of Singing, 2023]{.stat-note}
 :::
 
 :::
@@ -58,7 +58,7 @@ I teach voice and vocal pedagogy at Boston Conservatory at Berklee, where I lead
 
 In this episode of Berklee Office Hours, I talk about what singing does for our health and how to keep a voice healthy over a lifetime of use.
 
-[More about me →](about.qmd)
+[More talks and media →](speaking.qmd)
 :::
 
 ::: {.split-media}
@@ -76,7 +76,7 @@ In this episode of Berklee Office Hours, I talk about what singing does for our 
 ::: {.split-text}
 ## Research
 
-Since 2022 I have led research in Boston Conservatory's graduate vocal pedagogy degrees. Our students' theses are collected in a public archive of 33 studies, searchable by topic, with data you can explore yourself.
+Since 2022 I have led research in Boston Conservatory's graduate vocal pedagogy degrees. Our students' theses are collected in a public archive of 33 studies, searchable by topic, with data you can explore yourself. In one, Brianna Meikle recorded the heart rates of both the singers and the audition panel during mock auditions.
 
 [Go to the research archive →](https://research.kaylagautereaux.com)
 :::
@@ -92,7 +92,7 @@ Since 2022 I have led research in Boston Conservatory's graduate vocal pedagogy 
 ::: {.split-text}
 ## Teaching
 
-I lead the MM in Vocal Pedagogy and the MFA in Musical Theater Vocal Pedagogy. I also direct two programs open to the public: a summer workshop for working voice teachers, and Vocal Academy, where adult singers take lessons with our graduate students.
+I treat a voice lesson as a place to ask a question, change one thing, and see what happens. I lead the MM in Vocal Pedagogy and the MFA in Musical Theater Vocal Pedagogy. I also direct two programs open to the public: a summer workshop for working voice teachers, and Vocal Academy, where adult singers take lessons with our graduate students.
 
 [Teaching →](teaching.qmd)
 [Summer workshop →](https://bostonconservatory.berklee.edu/extension-programs/vocal-pedagogy-professional-workshop)
@@ -143,6 +143,40 @@ I spend my days teaching voice and voice teachers, and I'm looking forward to nu
 :::
 
 [My first voice lesson in years, November 2026]{.video-caption}
+:::
+
+:::
+
+::: {.work-strip .column-screen}
+
+## Work with me
+
+::: {.work-grid}
+
+:::: {}
+### Lessons and coaching
+
+I teach voice lessons and coach voice teachers, in person in the Boston area or online.
+
+[Voice studio →](https://studio.kaylagautereaux.com)
+::::
+
+:::: {}
+### Talks and workshops
+
+I give conference presentations, workshops, and guest lectures on voice pedagogy, research in conservatory programs, and AI tools for learning.
+
+[Presentations and media →](speaking.qmd)
+::::
+
+:::: {}
+### Consulting
+
+I'm open to consulting and advisory work with companies building learning technology and with schools rethinking how teachers are trained.
+
+[Get in touch →](contact.qmd)
+::::
+
 :::
 
 :::

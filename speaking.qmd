@@ -1,5 +1,6 @@
 ---
 title: "Presentations & Media"
+image: images/og-speaking.jpg
 description: "Presentations, publications, podcasts, and media by Kayla Gautereaux on voice pedagogy, graduate research, and AI in teaching and learning."
 ---
 
@@ -14,6 +15,12 @@ I give conference presentations, workshops, guest lectures, and podcast intervie
 :::
 
 [Berklee Office Hours: Singing for Health and Healthy Singing]{.video-caption}
+
+::: {.video-embed}
+<iframe src="https://www.youtube-nocookie.com/embed/-FOSSUIun54?rel=0" title="Exploring the Acoustics of Singing for World Voice Day at Berklee" allow="encrypted-media; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" loading="lazy" allowfullscreen></iframe>
+:::
+
+[Exploring the Acoustics of Singing, World Voice Day at Berklee, April 2026]{.video-caption}
 
 <iframe title="AI and the Voice Practitioner, VocalFri Podcast" class="podcast-player" height="150" width="100%" scrolling="no" loading="lazy" src="https://www.podbean.com/player-v2/?i=2k3gu-1a9fb06&share=0&download=0"></iframe>
 

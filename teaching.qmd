@@ -1,5 +1,6 @@
 ---
 title: "Teaching"
+image: images/og-teaching.jpg
 description: "Kayla Gautereaux leads the MM in Vocal Pedagogy and MFA in Musical Theater Vocal Pedagogy at Boston Conservatory at Berklee and directs the Vocal Pedagogy Professional Workshop."
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "About"
+image: images/og-about.jpg
 description: "Kayla Gautereaux is a mezzo-soprano and voice teacher who leads the graduate vocal pedagogy area at Boston Conservatory at Berklee, where she built a research program inside two graduate degrees in voice teaching and singing."
 ---
 
@@ -44,7 +45,7 @@ I call my approach scientific method informed voice teaching. In a lesson I list
 
 <iframe title="Scientific Method Informed Voice Teaching, VocalFri Podcast" class="podcast-player" height="150" width="100%" scrolling="no" loading="lazy" src="https://www.podbean.com/player-v2/?i=88x5b-1998280&share=0&download=0"></iframe>
 
-I supervise graduate research the same way. Students start from something they have noticed in their own teaching or singing and turn it into a question they can test.
+Supervising thesis research taught me to teach voice better. The questions singers bring to a thesis, such as why an animal sound helps their middle voice, are the same ones they ask in a lesson.
 
 ## What I'm building now
 
