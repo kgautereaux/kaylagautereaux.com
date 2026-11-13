@@ -1263,3 +1263,80 @@ section[id] {
     row-gap: 0.25rem;
   }
 }
+
+/* ========================================
+   Stats strip: award names set as words, not figures
+   ======================================== */
+.stats-strip .stat-big.stat-word {
+  font-size: 1.3rem;
+  line-height: 1.2;
+  margin-bottom: 0.45rem;
+}
+
+@media (max-width: 860px) {
+  .stats-strip .stat-big.stat-word {
+    font-size: 1.15rem;
+  }
+}
+
+/* ========================================
+   Work with me: three short columns on the light tint
+   ======================================== */
+.work-strip {
+  background: #E8F1EF;
+  padding: 3.5rem max(2rem, calc((100vw - 1080px) / 2));
+  margin-top: 1rem;
+}
+
+.work-strip h2 {
+  font-family: "Newsreader", Georgia, serif;
+  color: #14504C;
+  margin: 0 0 1.75rem;
+  border: 0;
+  padding: 0;
+}
+
+.work-strip .work-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2.5rem;
+}
+
+.work-strip h3 {
+  font-family: "Instrument Sans", system-ui, sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #14504C;
+  margin: 0 0 0.6rem;
+}
+
+.work-strip p {
+  margin: 0 0 0.75rem;
+}
+
+.work-strip a {
+  font-family: "Instrument Sans", system-ui, sans-serif;
+  font-size: 0.92rem;
+  color: #1F7A72;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.work-strip a:hover {
+  text-decoration: underline;
+}
+
+.work-strip + .photo-band {
+  margin-top: 0;
+}
+
+@media (max-width: 860px) {
+  .work-strip {
+    padding: 2.5rem 1.25rem;
+  }
+
+  .work-strip .work-grid {
+    grid-template-columns: 1fr;
+    gap: 1.75rem;
+  }
+}
