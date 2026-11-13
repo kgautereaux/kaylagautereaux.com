@@ -65,6 +65,12 @@ website:
       - icon: instagram
         href: https://instagram.com/kaylajanegautereaux
         aria-label: Instagram
+      - icon: tiktok
+        href: https://www.tiktok.com/@kaylajanegauterea
+        aria-label: TikTok
+      - icon: facebook
+        href: https://www.facebook.com/KaylaGautereaux
+        aria-label: Facebook
       - icon: youtube
         href: https://youtube.com/@voiceboxchannel
         aria-label: YouTube

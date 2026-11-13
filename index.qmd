@@ -124,6 +124,29 @@ I use AI as a partner in teaching and learning, not as a replacement for either.
 
 :::
 
+::: {.split .column-screen}
+
+::: {.split-text}
+## How to Love Your Voice
+
+I spend my days teaching voice and voice teachers, and I'm looking forward to nurturing my own voice again. How to Love Your Voice is a project in process, and I want to try its ideas on myself first. I'll share more as I learn and explore.
+
+[Instagram →](https://instagram.com/kaylajanegautereaux)
+[TikTok →](https://www.tiktok.com/@kaylajanegauterea)
+[Facebook →](https://www.facebook.com/KaylaGautereaux)
+[YouTube →](https://youtube.com/@voiceboxchannel)
+:::
+
+::: {.split-media}
+::: {.video-embed .vertical}
+<iframe src="https://www.youtube-nocookie.com/embed/erlFNsOJ6rQ?rel=0&playsinline=1" title="My first voice lesson in years, How to Love Your Voice" allow="encrypted-media; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" loading="lazy" allowfullscreen></iframe>
+:::
+
+[My first voice lesson in years, November 2026]{.video-caption}
+:::
+
+:::
+
 ::: {.photo-band .column-screen}
 ![](images/singing-costume.jpg){fig-alt="Kayla Gautereaux as the Mother in Menotti's Amahl and the Night Visitors, singing with arms outstretched"}
 

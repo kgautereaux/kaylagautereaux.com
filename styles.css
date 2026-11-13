@@ -1235,3 +1235,31 @@ section[id] {
     margin-right: 0.5rem;
   }
 }
+
+/* ========================================
+   Vertical (phone-shaped) video, such as a YouTube Short
+   ======================================== */
+.video-embed.vertical {
+  aspect-ratio: 9 / 16;
+  width: min(100%, 18rem);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.split-media:has(.video-embed.vertical) {
+  text-align: center;
+}
+
+/* Keep each homepage row link and its arrow on one line */
+.split-text a {
+  white-space: nowrap;
+}
+
+/* Footer links and social icons wrap on narrow phones */
+@media (max-width: 480px) {
+  .nav-footer .footer-items {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 0.25rem;
+  }
+}
